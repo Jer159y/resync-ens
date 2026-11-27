@@ -1,0 +1,2 @@
+Test Summary:                                         | Pass  Total  Time
+Two-observation model gradients and history alignment |   57     57  1.5s

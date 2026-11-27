@@ -1,0 +1,4 @@
+# Preserve evidence bytes across checkouts; no implicit newline conversion.
+* -text
+*.pdf binary
+*.jld2 binary

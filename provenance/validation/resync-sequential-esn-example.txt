@@ -1,0 +1,1 @@
+EXAMPLE_TRACES_REPRODUCED esn: all three conditions agree with published coordinates
