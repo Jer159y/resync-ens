@@ -9664,8 +9664,8 @@
     {
       "source": null,
       "destination": "README.md",
-      "export_sha256": "6ed7496b8e5989ccc6e968068102b1c87382cea89d69d3880a7f8385e7d22175",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update; reviewed portability/evidence update"
+      "export_sha256": "637906d0f827e85ac0536d7891be3392b7c2c910d9e99e5f7806e72e125832fe",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update; reviewed portability/evidence update; reviewed portability/evidence update"
     },
     {
       "source": null,
@@ -16048,8 +16048,8 @@
     {
       "source": null,
       "destination": "paper/manuscript.tex",
-      "export_sha256": "76a6450fcee61084c4460a5453be372be0c3397a27005343d46c7d8191a59cce",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
+      "export_sha256": "b783e5c60ea7c390a390fbd15ac4a386b8f24dc4108f9ee624b9af06f3bb9cc8",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update; reviewed portability/evidence update"
     },
     {
       "source": null,
@@ -16522,8 +16522,8 @@
     {
       "source": null,
       "destination": "scripts/build.py",
-      "export_sha256": "68ad31d7d2b234af504ad361f3b0df5044005ad616984999e97e2232908ab8ff",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction"
+      "export_sha256": "608beeec12567a6e89923e9f5be5c873bcb18e42fcc4e513b0714fbd3ccc75a0",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
     },
     {
       "source": null,
@@ -16867,8 +16867,8 @@
     {
       "source": null,
       "destination": "provenance/current_gmd_submission_manifest.json",
-      "export_sha256": "b492c5f3ba4c590029b1aea511ca2863bd56f9af577811829992c01122d57409",
-      "transformation": "Portable orchestration, frozen evidence or extraction validation"
+      "export_sha256": "184dea57eb136971cd8183f7a0006d6693b0f66b2d27b8e59d8c834d8bb150e1",
+      "transformation": "Portable orchestration, frozen evidence or extraction validation; reviewed portability/evidence update"
     },
     {
       "source": null,

@@ -1,6 +1,6 @@
 # resync-ens
 
-Reproducibility materials for **State resynchronization in reservoir ensembles without additional observations** (Soobin Choi and Pilwon Kim), working GMD manuscript, export cutoff 28 November 2026.
+Reproducibility materials for **State resynchronization in reservoir ensembles without additional observations** (Soobin Choi and Pilwon Kim), working GMD manuscript, reproduction version **0.1.0**, export cutoff 28 November 2026.
 
 This repository contains the code and numerical evidence used by the manuscript, not the parent EESN development history. The main examples are the Duffing oscillator, Charney–DeVore model, Kuramoto–Sivashinsky equation (200-node reservoirs), a QG model with 20 variables, and a cyclic Thomas system with 16 variables.
 
