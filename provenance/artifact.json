@@ -2,5 +2,9 @@
   "name": "main-inputs-v1.tar.gz",
   "sha256": "07540f4f36d88e719bd744162184997e7f2d6143fabc1f5e858c7a885b5588d9",
   "bytes": 517352233,
-  "n_files": 4204
+  "n_files": 4204,
+  "repository": "Jer159y/resync-ens",
+  "release_tag": "reproduction-inputs-v1",
+  "asset_id": 801243699,
+  "private": true
 }

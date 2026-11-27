@@ -1,7 +1,0 @@
-data_manifest_sha256 = "a172ed51c29c89c7c222dae82879df929a365b55278bdaeacd6d99324ce21ac0"
-floor_s = 0.013573340393384098
-floor_w = 0.02328491370186478
-scope = "Conditional empirical reference draws; separate target/check roles; mean reference losses are normalization scales, not universal error floors or confidence intervals"
-spread_reference = 1.0031061825608956
-system = "rp20"
-w1_status = "computed"

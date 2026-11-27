@@ -30,7 +30,7 @@ python3 scripts/build.py --redraw
 
 ## Re-execute the experiments
 
-The private release `reproduction-inputs-v1` contains frozen model weights and states, training prefixes, calibration targets, validation/test physical trajectories, QG coefficients, cohort IDs and numerical anchors. These inputs are kept out of Git history. Authenticate GitHub CLI with access to this private repository, then:
+The private prerelease `reproduction-inputs-v1` contains frozen model weights and states, training prefixes, calibration targets, validation/test physical trajectories, QG coefficients, cohort IDs and numerical anchors. These inputs are kept out of Git history. Authenticate GitHub CLI with access to this private repository, then:
 
 ```sh
 python3 scripts/fetch_artifacts.py
@@ -48,6 +48,8 @@ Additional commands, using the original settings without new tuning:
 julia --project=. --startup-file=no -t 4 experiments/main.jl duffing bo
 # Training from the saved original training prefix (writes a new model directory)
 julia --project=. --startup-file=no -t 4 experiments/main.jl duffing train
+# Fixed climatology and finite-300 expected CRPS on the original test truth
+julia --project=. --startup-file=no experiments/climatology.jl duffing
 # From-equation regeneration of calibration and reference statistics; can be expensive
 julia --project=. --startup-file=no experiments/data_and_calibration.jl duffing
 # Common-parent history × boundary-input controls, Duffing or KS200

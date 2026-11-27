@@ -20,4 +20,4 @@ Completed locally:
 - Oracle-removal analytical assertions.
 - All eight TeX figure assemblies and 32-page manuscript build.
 
-The ten-base-interval paired rerun records are in `provenance/validation/` when completed. These are prefix checks, not new 200-interval experiments or new parameter selection. The complete production-run summaries retain their original audit records.
+Ten-base-interval paired reruns are complete for all five systems, for both no correction and Resync (10 policy runs). Every checked own/returned spread, spread-loss, CRPS and distribution-window W1 matches its original prefix within `1e-9`; exact differences and first-forecast checks are recorded under `provenance/validation/prefix/`. These are prefix checks, not new 200-interval experiments or new parameter selection. The complete production-run summaries retain their original audit records.

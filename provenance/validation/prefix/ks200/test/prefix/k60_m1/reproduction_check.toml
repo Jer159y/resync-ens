@@ -1,0 +1,4 @@
+first_own_match = true
+maximum_metric_difference = 0.0
+prefix_only = true
+tolerance = 1.0e-9

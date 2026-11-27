@@ -1,4 +1,6 @@
-Working GMD draft, not submitted. Author confirmations and public code/data identifiers remain pending.
-Build: pdflatex manuscript; bibtex manuscript; pdflatex manuscript; pdflatex manuscript.
-Official unmodified Copernicus class/config/style included. Each submitted figure is a single PDF.
-Scientific prose and figure panel assemblies remain editable in the parent repository; regenerate rather than editing this export.
+Working GMD manuscript, not submitted.
+Build from repository root: python3 scripts/build.py
+Regenerate all eight figures and build: python3 scripts/build.py --redraw
+Paper output: build/paper/manuscript.pdf
+Panel layouts and numerical evidence are editable within this repository.
+Author confirmations and public DOI/licence remain pending.

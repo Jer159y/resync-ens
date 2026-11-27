@@ -32,7 +32,7 @@ Panel letters and layouts are editable TeX. Individual PDFs contain data axes, n
 | Earlier pilot trade-offs | `state_reconstruction_vs_ensemble_20261122/policy_summaries.csv` and `own_vs_returned_changes.csv`; archival evaluation definitions retained |
 | Oracle-removal counterexample | `experiments/oracle_removal.py`, standard library, analytic integrals; writes `build/oracle_removal/` |
 | Auxiliary dimension/coverage and own-vs-returned tables | Per-window CSVs in `main/`, `manuscript_review_20261123`, `resync_v4_completed_20261123` |
-| Climatology and iid-300 CRPS reference | `manuscript_review_20261123/*_climatology_base.csv` and `climatology_summary.csv`; the fixed calibration marginal and current test truth are preserved in input artifacts |
+| Climatology and iid-300 CRPS reference | `manuscript_review_20261123/*_climatology_base.csv` and `climatology_summary.csv`; `experiments/climatology.jl` recomputes these values from the preserved fixed calibration marginal and current test truth |
 | Additional earlier-system tests | `resync_v4_completed_20261123`: explicitly archival compact evidence; not rerun under new presets |
 | Sequential-model settings and illustration provenance | `configs/sequential_{lstm,esn}.toml`, `sequence_model_examples_20261124/{selected_examples,provenance,...}`; model weights in input artifact |
 | History-length and crossed-replication results | Original window summaries/audits in `resync_history_dense_20261124`, `ks_followup_completion_20261127`, `resync_reserve_extension_20261125`; verified reconstruction with `scripts/prepare_followup_data.py` |

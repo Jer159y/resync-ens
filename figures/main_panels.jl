@@ -14,7 +14,7 @@ using JLD2
 ds=JLD2.load("data/compact/plot_inputs.jld2","datasets")
 for (c,d) in enumerate(ds)
  X=hcat(d.R,d.B,d.C,reshape(d.truth,2,1));lo=vec(minimum(X;dims=2));hi=vec(maximum(X;dims=2));pad=0.07 .* max.(hi.-lo,eps());lim=(lo[1]-pad[1],hi[1]+pad[1],lo[2]-pad[2],hi[2]+pad[2])
- for row in 1:3
+ for row in 1:2
   f=Figure(size=(340,275),fontsize=24,figure_padding=0)
   ax=Axis(f;bbox=BBox(85,325,65,245),xlabel=row==1 ? "" : row==2 ? d.xlabel : d.cdf_label,ylabel=row<3 ? d.ylabel : c==1 ? "Probability" : "",xlabelsize=24,ylabelsize=24,xticklabelsize=23,yticklabelsize=23,ylabelpadding=4,xticks=WilkinsonTicks(3),yticks=row==3 ? [0,.5,1] : WilkinsonTicks(3))
   if row<3
