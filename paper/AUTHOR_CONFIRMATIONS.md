@@ -11,7 +11,7 @@ to omit acknowledgments and author declarations.
 - Add the required author-contribution statement, with agreed roles for both
   authors, and the required competing-interest declaration. Confirm funding and
   acknowledgments if applicable. Numerical simulations use no human/animal data.
-- Deposit the actual code version and supporting data in persistent repositories,
+- The public code and input release are at https://github.com/Jer159y/resync-ens. Archive the final version in persistent repositories,
   add identifiers, licences and access conditions to Code and data availability.
   Describe raw-output retention limits accurately; do not imply all raw runs exist.
 - Confirm an AI-use disclosure under current Copernicus guidance. Draft for author

@@ -9652,8 +9652,8 @@
     {
       "source": null,
       "destination": "NOTICE",
-      "export_sha256": "25f0e218e355647a7ce2d78fa607250bec80ab16fd641916ad9b8f044132a685",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction"
+      "export_sha256": "ed098c250b0c39b93d058bfb71e72667de0526dc2c086d5d8124a115ba94a9f4",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
     },
     {
       "source": null,
@@ -9664,8 +9664,8 @@
     {
       "source": null,
       "destination": "README.md",
-      "export_sha256": "97d858dd6dcb98c651e6bc8f8775064b92c4deb53d447f7972122720b2a00c28",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
+      "export_sha256": "6ed7496b8e5989ccc6e968068102b1c87382cea89d69d3880a7f8385e7d22175",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update; reviewed portability/evidence update"
     },
     {
       "source": null,
@@ -15472,8 +15472,8 @@
     {
       "source": null,
       "destination": "docs/AUTHOR_ACTIONS.md",
-      "export_sha256": "561c691f9c71dedace43056fb4bef14f098f7da295cef8014779ff092f9e4caf",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction"
+      "export_sha256": "32f3848133711fcb89f348b80e85088d922938f08acb36c70a27b8721ffbbfc9",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
     },
     {
       "source": null,
@@ -15484,14 +15484,14 @@
     {
       "source": null,
       "destination": "docs/VALIDATION.md",
-      "export_sha256": "39ef36f38dbdf08e01f5b554b2d542bee9e2842a06100200761c0d1452ab6267",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
+      "export_sha256": "e928a09f66d54493a0d857d0e5db552145cb966e81692e0423ed66f29c842364",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update; reviewed portability/evidence update"
     },
     {
       "source": null,
       "destination": "experiments/climatology.jl",
-      "export_sha256": "8d7508e20fff6f4af1276517d1844ea445fc44bcab2f45e35bc38ae30f5510dd",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction"
+      "export_sha256": "54517718ae99b9d9dd93072978c2509db4fd81571b496368e07f1a073f3395b4",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
     },
     {
       "source": null,
@@ -15957,8 +15957,8 @@
     {
       "source": null,
       "destination": "paper/AUTHOR_CONFIRMATIONS.md",
-      "export_sha256": "f7c6bcf753d0102a6e561047daf8c7bdfdf13b7aac2e0f0c04232ec8a96945cf",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction"
+      "export_sha256": "bd08e61577297e4557c96e0e816e3e6cdcd0d2a40cfe419b7c6170e5e7172aa8",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
     },
     {
       "source": null,
@@ -15987,50 +15987,50 @@
     {
       "source": null,
       "destination": "paper/figures/fig01.pdf",
-      "export_sha256": "a0b36e7158889a2eead61567a65fb1347adbc1f0c20137aab896b53e45f94b8a",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction"
+      "export_sha256": "6f5b1f1632bd88f51b20b92575f1fde0f1ce6459472af388c0b88dd0f59b0ba3",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
     },
     {
       "source": null,
       "destination": "paper/figures/fig02.pdf",
-      "export_sha256": "90b4eb681fe6909a52a59f9725966231ceb789893741adbb15fad9644b8085a9",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction"
+      "export_sha256": "f44dde722e7aa7e9881bd47d5531fdc35bda095adc2586ed82b924eb5defafa4",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
     },
     {
       "source": null,
       "destination": "paper/figures/fig03.pdf",
-      "export_sha256": "d5ecaf0fb6c6a04566297dfad42c73459a9bee41276a67b95264804c557da7e6",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction"
+      "export_sha256": "f0f0f920f6eecce335f2ce4916e27c5b9d670102ef28ff968497735bb16956c1",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
     },
     {
       "source": null,
       "destination": "paper/figures/fig04.pdf",
-      "export_sha256": "28096fe524458a9a4587df300e8dd17d63783cba6a6878bffd6bc89a48fba0ac",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction"
+      "export_sha256": "c8e825295c7cf2dc031829d5831b38e4bbec97d9ec956583f8ded15f3237ebad",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
     },
     {
       "source": null,
       "destination": "paper/figures/figA01.pdf",
-      "export_sha256": "8ee60e14bad0799a35b4428705562363f6fc33470f194692d158478fbb22bcff",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction"
+      "export_sha256": "7a6926da0f305be6eb89358953340b3b6cc1ae79c3cfe28c66a94b0c305e858f",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
     },
     {
       "source": null,
       "destination": "paper/figures/figA02.pdf",
-      "export_sha256": "eb34938d52efd7fc64003b7b76e00cdac2c6e20cdff05818eeb649cd09869d69",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction"
+      "export_sha256": "d65a54b32d9d4024783633cd3fe691b38520d147989b8a5640fe6d927f257645",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
     },
     {
       "source": null,
       "destination": "paper/figures/figA03.pdf",
-      "export_sha256": "c0a25dff3aa7057c1b5ffcb1fabca0703785e12468755fb3a59e03f06f296419",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction"
+      "export_sha256": "e0ef0d0f92dfeb86a63f47a4f5d7bdd62e36cdc1e4ec50f686dd05bda248ea05",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
     },
     {
       "source": null,
       "destination": "paper/figures/figA04.pdf",
-      "export_sha256": "9d48f15ce8c5babd6f1cfdf0c560eb2340c936fad3c9f3084890313c5ff0802c",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction"
+      "export_sha256": "a810c0dfdc28acd0d5662ad5aac680d51ff3c13a1774ffffcbcdbe6fb6dc74c3",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
     },
     {
       "source": null,
@@ -16042,20 +16042,20 @@
     {
       "source": null,
       "destination": "paper/manuscript.bbl",
-      "export_sha256": "500407282bca519706e49ba8ee98bb8e5f5b078c84e42db969efd1c4650e2acf",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction"
+      "export_sha256": "dcd6beda5e93fbae1cabeadc5258680104dff17d355c87d68078a22cbb7d5f3a",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
     },
     {
       "source": null,
       "destination": "paper/manuscript.tex",
-      "export_sha256": "8babbde19336d6e6eb98081660074dddc9657b204ac0581411b4ba9be55ffcc5",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction"
+      "export_sha256": "76a6450fcee61084c4460a5453be372be0c3397a27005343d46c7d8191a59cce",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
     },
     {
       "source": null,
       "destination": "paper/refs_new.bib",
-      "export_sha256": "f30b02694198866c4111665eb35c6502537cabbda2b27873fd29265920dfebb2",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction"
+      "export_sha256": "fedfe04971989081156875d5cd03cfc01fb7ea9451079392f4b76cfe2a2027d7",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
     },
     {
       "source": null,
@@ -16072,8 +16072,8 @@
     {
       "source": null,
       "destination": "provenance/artifact.json",
-      "export_sha256": "e8be32d3111f4ffde7b3eabc97fb0b25d7fdc9bf29fd572a448e1dd636e19cf3",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
+      "export_sha256": "60a2bcdecf4d30affbf6322c231487e8599f57759bbac6cd7bea2279bcbaf071",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update; reviewed portability/evidence update"
     },
     {
       "source": null,
@@ -16528,8 +16528,8 @@
     {
       "source": null,
       "destination": "scripts/fetch_artifacts.py",
-      "export_sha256": "7bc14cd8f91cb603a24b0c1fbb8b5fa6fa0bc1997696679a7d5daaa543462965",
-      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction"
+      "export_sha256": "140e52ebfa18c5ddceeef58d00151f435028c72c6951c6c483f3ea399fea8825",
+      "transformation": "Portable orchestration, frozen evidence or documentation added during reproducibility extraction; reviewed portability/evidence update"
     },
     {
       "source": null,
@@ -16856,6 +16856,36 @@
       "source": null,
       "destination": "provenance/validation/resync-thomas16-smoke.txt",
       "export_sha256": "27887c60e760af6870d67374c1efb7f2d7911f16f6dbbe39f2d8384ea6531206",
+      "transformation": "Portable orchestration, frozen evidence or extraction validation"
+    },
+    {
+      "source": null,
+      "destination": "docs/GMD_REVIEW.md",
+      "export_sha256": "b74e559a5d5585297b61eb252b1e2368128031f5d0a6848907da30121886c248",
+      "transformation": "Portable orchestration, frozen evidence or extraction validation"
+    },
+    {
+      "source": null,
+      "destination": "provenance/current_gmd_submission_manifest.json",
+      "export_sha256": "b492c5f3ba4c590029b1aea511ca2863bd56f9af577811829992c01122d57409",
+      "transformation": "Portable orchestration, frozen evidence or extraction validation"
+    },
+    {
+      "source": null,
+      "destination": "provenance/validation/public_access.json",
+      "export_sha256": "a4736689e65d55cf3e5ed7b9663071dd73bf7973f79f4597ca119bbc8a7592b2",
+      "transformation": "Portable orchestration, frozen evidence or extraction validation"
+    },
+    {
+      "source": null,
+      "destination": "provenance/validation/resync-calibration-check.txt",
+      "export_sha256": "be423a3c7e9494475df42bdcbc863a7ecea8ab88d6ae83d37a457c906b637be6",
+      "transformation": "Portable orchestration, frozen evidence or extraction validation"
+    },
+    {
+      "source": null,
+      "destination": "provenance/validation/resync-climatology-check.txt",
+      "export_sha256": "5a376dc02523aec929b82a7961fa67c69cd5457def518b1153feb0c353f43600",
       "transformation": "Portable orchestration, frozen evidence or extraction validation"
     }
   ]

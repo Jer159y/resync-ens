@@ -10,6 +10,8 @@ Completed on mac-studio with Julia 1.12.5 and the original locked package versio
 - BO failure handling/reproducibility: 10/10 tests.
 - Sequential-model gradients and history alignment: 57/57 tests.
 - First autonomous forecast: exact original SHA-256 for Duffing, CDV, KS200, QG20 and cyclic Thomas16, using the exported portable checkpoints.
+- Duffing calibration regenerated from the original physical equation: calibration target and all checked reference summaries match.
+- Climatology CRPS on every Duffing base window independently recomputed and matched to `1e-12`.
 - Selected LSTM and reservoir illustrations: all three 1,000-step conditions independently recomputed; every plotted physical coordinate agrees to `1e-10`.
 - All six data-rendering scripts and the concept renderer execute using committed compact data.
 

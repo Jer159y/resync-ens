@@ -2,7 +2,7 @@
 
 Reproducibility materials for **State resynchronization in reservoir ensembles without additional observations** (Soobin Choi and Pilwon Kim), working GMD manuscript, export cutoff 28 November 2026.
 
-This private repository contains the code and numerical evidence used by the manuscript, not the parent EESN development history. The main examples are the Duffing oscillator, Charney–DeVore model, Kuramoto–Sivashinsky equation (200-node reservoirs), a QG model with 20 variables, and a cyclic Thomas system with 16 variables.
+This repository contains the code and numerical evidence used by the manuscript, not the parent EESN development history. The main examples are the Duffing oscillator, Charney–DeVore model, Kuramoto–Sivashinsky equation (200-node reservoirs), a QG model with 20 variables, and a cyclic Thomas system with 16 variables.
 
 ## Fast reproduction: no forecast or model training
 
@@ -30,7 +30,7 @@ python3 scripts/build.py --redraw
 
 ## Re-execute the experiments
 
-The private prerelease `reproduction-inputs-v1` contains frozen model weights and states, training prefixes, calibration targets, validation/test physical trajectories, QG coefficients, cohort IDs and numerical anchors. These inputs are kept out of Git history. Authenticate GitHub CLI with access to this private repository, then:
+The input prerelease `reproduction-inputs-v1` contains frozen model weights and states, training prefixes, calibration targets, validation/test physical trajectories, QG coefficients, cohort IDs and numerical anchors. These inputs are kept out of Git history. Download and verify the public input archive:
 
 ```sh
 python3 scripts/fetch_artifacts.py
@@ -75,4 +75,4 @@ See [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) for result-to-source mappings,
 
 Own candidates and returned populations are distinct records. The controls separate donor boundary input from generated-history replay; output-record copying is not the mechanistic factor. The finite empirical CRPS is used, with an `N²` denominator. Events and adjacent windows are not independent runs. The effective dimension is a correlation diagnostic, not an independent-member count. The repository preserves unfavourable and undefined results and the disclosed Duffing reserve-pool extension.
 
-This is a private working release, not a public code/data deposit or journal submission. Publication licence, persistent DOI and author declarations remain author decisions; see [AUTHOR_ACTIONS.md](docs/AUTHOR_ACTIONS.md).
+This is a public working reproduction release, not a journal submission or DOI-bearing archive. Licence, persistent DOI and author declarations remain author decisions; see [AUTHOR_ACTIONS.md](docs/AUTHOR_ACTIONS.md).

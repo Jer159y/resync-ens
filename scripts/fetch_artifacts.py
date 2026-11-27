@@ -1,6 +1,6 @@
-"""Download the private release asset with authenticated gh; verify before extraction."""
+"""Download the public input release; verify before extraction."""
 from pathlib import Path,PurePosixPath
-import argparse,hashlib,json,subprocess,tarfile,tempfile,shutil
+import argparse,hashlib,json,tarfile,tempfile,shutil,urllib.request
 ROOT=Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser();p.add_argument('--archive',type=Path,help='Use an already downloaded archive');a=p.parse_args()
 spec=json.loads((ROOT/'provenance/artifact.json').read_text());dest=ROOT/'artifacts'
@@ -12,8 +12,10 @@ def digest(p):
 with tempfile.TemporaryDirectory(prefix='resync-inputs-') as tmp:
     if a.archive:archive=a.archive.resolve()
     else:
-        if not shutil.which('gh'):raise SystemExit('Install GitHub CLI and run gh auth login with access to Jer159y/resync-ens')
-        subprocess.run(['gh','release','download','reproduction-inputs-v1','--repo','Jer159y/resync-ens','--pattern',spec['name'],'--dir',tmp],check=True)
+        url='https://github.com/Jer159y/resync-ens/releases/download/reproduction-inputs-v1/'+spec['name']
+        request=urllib.request.Request(url,headers={'User-Agent':'resync-ens-reproduction'})
+        with urllib.request.urlopen(request) as response, (Path(tmp)/spec['name']).open('wb') as target:
+            shutil.copyfileobj(response,target,length=8*1024*1024)
         archive=Path(tmp)/spec['name']
     if digest(archive)!=spec['sha256']:raise SystemExit('Archive checksum mismatch; no files extracted')
     unpack=Path(tmp)/'unpacked';unpack.mkdir()

@@ -1,4 +1,4 @@
-\begin{thebibliography}{28}
+\begin{thebibliography}{29}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{}
@@ -38,6 +38,13 @@ Gneiting, T., Balabdaoui, F., and Raftery, A.~E.: {Probabilistic forecasts,
   calibration and sharpness}, Journal of the Royal Statistical Society: Series
   B (Statistical Methodology), 69, 243--268,
   \doi{10.1111/j.1467-9868.2007.00587.x}, 2007.
+
+\bibitem[{Grigoryeva et~al.(2024)Grigoryeva, Hamzi, Kemeth, Kevrekidis,
+  Manjunath, Ortega, and Steynberg}]{grigoryeva2024coldstarting}
+Grigoryeva, L., Hamzi, B., Kemeth, F.~P., Kevrekidis, Y., Manjunath, G.,
+  Ortega, J.-P., and Steynberg, M.~J.: Data-driven cold starting of good
+  reservoirs, Physica D: Nonlinear Phenomena, 469, 134\,325,
+  \doi{10.1016/j.physd.2024.134325}, 2024.
 
 \bibitem[{Haluszczynski and Räth(2019)}]{haluszczynski2019good}
 Haluszczynski, A. and Räth, C.: {Good and bad predictions: Assessing and
