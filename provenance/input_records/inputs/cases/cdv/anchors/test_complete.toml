@@ -1,0 +1,10 @@
+comparison_sha256 = "d7fc05f3d9dca7a2b0a99160491ea07e3694a04fd4da5a1857d041afac341a4d"
+n_base_intervals = 200
+no_training = true
+paired_first_base_verified = true
+physical_data_sha256 = "d6bc379b8a23a04f685fe6aab9652384f0b7657d93b91b6fb945d35edff518c9"
+physical_seed = 2026112213
+selection_sha256 = "14f0b622f44e9f4dffbf3c5f940baedb3a28f924c9de64e9066cfa8f45824b3e"
+status = "complete"
+system = "cdv"
+test_accessed = true

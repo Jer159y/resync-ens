@@ -1,0 +1,8 @@
+anchor_checked = false
+condition = "b0_r1"
+conditional_events = 0
+first_own_sha256 = "24bc6d20b8e495171b69fc58bbf7affe0407230ebbf30de61a5d9a165317f4d9"
+max_anchor_difference = 0.0
+n_base_windows = 200
+raw_saved = false
+status = "complete"

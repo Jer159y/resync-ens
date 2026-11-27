@@ -1,0 +1,16 @@
+{
+  "source_hashes_verified": true,
+  "changes_recomputed": 6,
+  "pdf_pages": {
+    "professor_brief": 6,
+    "population_quality_addendum": 2
+  },
+  "zip_integrity": true,
+  "initialization_sensitivity_excluded_from_this_evidence": true,
+  "source_artifacts": {
+    "own_vs_returned_changes.csv": "daf8c03bec880fa0c9dca152a77512376171bb49fef4d20ecb6030fa1a0df2d9",
+    "population_disconnect.pdf": "d4c651e79f5f512397ac5c7faa6fa6748dbbabd0c2698b1fa432964c3b214b59",
+    "historical_update_dcrps.csv": "a3e5d41ff8257ac7acda547749ab26687f41ab8c0b14888088d1787d58abc5a2",
+    "historical_update_effects.pdf": "acb47e6b18104affc030588bcbca1369ad3ae53f3cb26ae6a61e66654008b8ee"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "julia_pid": 42591,
+  "supervisor_pid": 42590,
+  "caffeinate_pid": 42592,
+  "exit_code": 0,
+  "phase": "complete",
+  "system": "",
+  "policy": "",
+  "cases": {
+    "duffing": {
+      "corrected_trials": 12,
+      "selection_frozen": true,
+      "test_recorded": true
+    },
+    "cdv": {
+      "corrected_trials": 12,
+      "selection_frozen": true,
+      "test_recorded": true
+    },
+    "ks": {
+      "corrected_trials": 12,
+      "selection_frozen": true,
+      "test_recorded": true
+    },
+    "maooam56": {
+      "corrected_trials": 12,
+      "selection_frozen": true,
+      "test_recorded": true
+    }
+  },
+  "corrected_trial_budget": 12,
+  "validation_starts": 2,
+  "test_base_intervals": 200,
+  "all_selections_frozen": true,
+  "forecast_raw_saved": false,
+  "updated_utc": "2026-11-22T17:57:38.621361+00:00"
+}

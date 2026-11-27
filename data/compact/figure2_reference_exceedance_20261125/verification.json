@@ -1,0 +1,43 @@
+{
+  "source_sha256": {
+    "paper/support/figure2_main_tests_20261124/duffing/reference_projection.csv": "a4b3d27b5ead0626636ea0fb2bac57a312877ec595661749132291e0678ff36a",
+    "paper/support/figure2_main_tests_20261124/duffing/no_correction_projection.csv": "7a3fbc863e079a7ac2772f4a17b749a643bfb12475ad680eda619e6eb5ee9ce3",
+    "paper/support/figure2_main_tests_20261124/duffing/selected_projection.csv": "e22dc5f9e1565f4ed52632dd40d9c085c7a52075d519d86533b75b2a8f2ce415",
+    "paper/support/figure2_main_tests_20261124/cdv/reference_projection.csv": "c3f7cdf9c3576cb15b1ec06ece2e30393a9fd54706eaa0869508cfb664a62c82",
+    "paper/support/figure2_main_tests_20261124/cdv/no_correction_projection.csv": "8b5b721a9ee658a15fa1c4f6bcb474f30926455f378ba96c7e69f1a60e0ac933",
+    "paper/support/figure2_main_tests_20261124/cdv/selected_projection.csv": "738edb615e347cdda2973c11dc989e63c2d65355e65421654859c35e148255fa",
+    "paper/support/figure2_unified_20261123/ks200/reference_observables.csv": "6d4a14b4020260c0c4c40b117d94b714d91d9fbfebe5c399a579aa8c835c08aa",
+    "paper/support/figure2_unified_20261123/ks200/no_correction_observables.csv": "0e2e103a07a8eac7751c71965f9c04c9a8a86c6d309c5ea504b5b5a1d95d684b",
+    "paper/support/figure2_unified_20261123/ks200/selected_observables.csv": "5c5be188d5fe1862808f7e4499ae640820bc1c922c5eed66d6d4171e8afa1290",
+    "paper/support/population_views_20261123/snapshot/rp20/reference_projection.csv": "5209b1774f7daf9053335be9ccd7e64cde70b249c7153a04761de6f63edc4128",
+    "paper/support/population_views_20261123/snapshot/rp20/no_correction_projection.csv": "886c72e84058155164f1a667fc1e754467b18515067dd27d6291e5f58f745096",
+    "paper/support/population_views_20261123/snapshot/rp20/selected_projection.csv": "9b228a1620d72ab346abdcd55f89486dfc28cde6013baade5ba2610b54c62754",
+    "paper/support/population_views_20261123/snapshot/thomas16/reference_projection.csv": "fcd12776b1f4533f42533fa7d9478aee7f04737d4bc7ed562168f9f6440a35d0",
+    "paper/support/population_views_20261123/snapshot/thomas16/no_correction_projection.csv": "7c8ac864f747f94b77ce7e87f15808d0fc8bcc8fd51da9698fbcef981bfbefd4",
+    "paper/support/population_views_20261123/snapshot/thomas16/selected_projection.csv": "36c8b4bd87318b7641bef1c771d33ff8876e8195db0aa13f01ed3d34a403c287"
+  },
+  "cases": [
+    "duffing",
+    "cdv",
+    "ks200",
+    "rp20",
+    "thomas16"
+  ],
+  "n_members": 300,
+  "snapshot_base": 40,
+  "fit_partition": "even zero-based rows of 5000 calibration visualization points",
+  "reference_check_partition": "odd zero-based rows; disjoint, not assumed independent",
+  "n_fit": 2500,
+  "n_check": 2500,
+  "marginal_interval_levels": [
+    0.9,
+    0.95,
+    0.99
+  ],
+  "region": "Cartesian product of the two displayed marginal central intervals",
+  "nominal_joint_coverage_claimed": false,
+  "physical_failure_labels": false,
+  "selection_metric": false,
+  "added_after_primary_test_inspection": true,
+  "new_forecasts": false
+}

@@ -1,0 +1,30 @@
+base_tau = 100
+calibration_physical_seed = 2026112351
+protocol_config_sha256 = "543449fa193cfd7e172499e0ba05b953f9d20532f5519684a867b1a86cf7440d"
+protocol_version = "thomas16_v4_20261123"
+reserved_test_physical_seed = 2026112353
+scope = "Original training prefix reused; independent seeded physical calibration and validation. Test generated only after selection freeze."
+system = "thomas16"
+test_generated = false
+training_prefix_length = 11000
+training_prefix_sha256 = "381a4fb7f05c4e416f661b85e3cf16c8bd21491d869b3563e2af4bec88c4e65c"
+training_prefix_source = "/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/outputs/research/setting_hunt_20261121/confirmation/thomas16_tau100_p10/data.jld2"
+validation_fresh_length = 12000
+validation_length_per_origin = 4000
+validation_origin_offsets = [1000, 8000]
+validation_physical_seed = 2026112352
+
+[calibration_indices.check_targets]
+first = 364001
+last = 404000
+length = 40000
+
+[calibration_indices.population_window_pool]
+first = 42001
+last = 362000
+length = 320000
+
+[calibration_indices.w1_target_bank]
+first = 1
+last = 40000
+length = 40000

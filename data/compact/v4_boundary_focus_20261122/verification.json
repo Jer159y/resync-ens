@@ -1,0 +1,19 @@
+{
+  "frozen_primary_sources_unchanged": {
+    "/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/tools/resync_v4_bo.jl": true,
+    "/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/tools/resync_v4_evaluator.jl": true,
+    "/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/tools/resync_v4_metrics.jl": true,
+    "/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/tools/resync_v4_operational.jl": true,
+    "/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/tools/run_resync_v4_smoke.jl": true,
+    "/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/tools/run_resync_v4_study.jl": true,
+    "configs/resync_v4_bo_test_20261122.toml": true,
+    "configs/resync_v4_evaluation_rules_20261122.toml": true,
+    "configs/resync_v4_protocol_20261122.toml": true,
+    "src/engine/resync_engine.jl": true
+  },
+  "main_pages": 24,
+  "supplement_pages": 30,
+  "latex_warnings": [],
+  "ks_queue_last_verified": "waiting_for_primary_study; parent running / ks / bo",
+  "new_ks_capacity_results_available": false
+}

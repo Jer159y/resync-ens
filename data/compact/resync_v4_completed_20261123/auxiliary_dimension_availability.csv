@@ -1,0 +1,11 @@
+system,configuration,windows,undefined_full_dimension_windows,mean_excluded_constant,max_excluded_constant
+duffing,k0_m1,200,193,64.935,86
+duffing,k30_m1,200,0,0,0
+cdv,k0_m1,200,197,10.92,13
+cdv,k30_m1,200,0,0,0
+ks,k0_m1,200,146,1.03,2
+ks,k30_m1,200,0,0,0
+ks,k90_m2,200,0,0,0
+maooam56,k0_m1,200,175,6.68,12
+maooam56,k30_m1,200,0,0,0
+maooam56,k3_m2,200,0,0,0

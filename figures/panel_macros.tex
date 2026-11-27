@@ -1,0 +1,44 @@
+% Panel lettering and headings are typeset by LaTeX, never baked into data PDFs.
+\newlength{\resyncFigureWidth}
+\definecolor{resyncBase}{HTML}{B36145}
+\definecolor{resyncCorrected}{HTML}{237E91}
+\definecolor{resyncReference}{HTML}{53616B}
+\newsavebox{\resyncPanelBox}
+\newsavebox{\resyncHeaderBox}
+\providecommand{\resyncPanelDrop}{.05}
+\providecommand{\resyncPanelRight}{.225}
+\providecommand{\resyncPanel}[4][\linewidth]{%
+  \begin{minipage}[c]{#1}\raggedright
+  \sbox{\resyncPanelBox}{\includegraphics[width=\linewidth]{#4}}%
+  \noindent\usebox{\resyncPanelBox}%
+  \llap{\makebox[\linewidth][l]{\hspace{\resyncPanelRight\linewidth}%
+    \raisebox{\dimexpr\ht\resyncPanelBox-\resyncPanelDrop\linewidth\relax}[0pt][0pt]{\makebox[0pt][r]{\footnotesize\bfseries (#2) #3}}}}%
+  \end{minipage}}
+\providecommand{\resyncHeader}[2]{\parbox[c]{#1}{\centering\scriptsize\bfseries #2}}
+% Align titles to the plotting rectangle, excluding the unequal axis margins.
+\providecommand{\resyncAxisHeader}[3][.10]{%
+  \parbox[c]{#2}{\sbox{\resyncHeaderBox}{\scriptsize\bfseries #3}%
+    \makebox[\linewidth][l]{\hspace*{#1\linewidth}%
+    \makebox[\linewidth][c]{\ifdim\wd\resyncHeaderBox>.84\linewidth
+      \resizebox{.84\linewidth}{!}{\usebox{\resyncHeaderBox}}%
+    \else\usebox{\resyncHeaderBox}\fi}}}}
+\providecommand{\resyncRowHeader}[3][5pt]{%
+  \makebox[#2][l]{\hspace*{3pt}\raisebox{#1}{%
+    \parbox[c]{#2}{\raggedleft\scriptsize\bfseries #3}}}}
+\providecommand{\resyncVerticalLabel}[1]{\raisebox{-.5\height}{\rotatebox{90}{\scriptsize\bfseries #1}}}
+\providecommand{\resyncCurveLegend}{%
+  {\footnotesize\textcolor{resyncBase}{\rule{10pt}{.6pt}}~No correction\quad
+  \textcolor{resyncCorrected}{--\,--}~Resync\quad
+  \textcolor{resyncReference}{$\cdots$}~Spread reference}}
+\providecommand{\resyncStateLegend}{%
+  {\footnotesize\textcolor{gray}{$\bullet$}~Calibration states\quad
+  \rule{10pt}{.5pt}~Model-generated trajectory}}
+
+% Explicit missing-result panels; never insert synthetic KS curves.
+\providecommand{\resyncPendingPanel}[2][\linewidth]{%
+  \begin{minipage}[c]{#1}\raggedright
+  \sbox{\resyncPanelBox}{\fcolorbox{gray!40}{white}{\parbox[c][.725\linewidth][c]{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{\centering\scriptsize Calculation in progress}}}%
+  \noindent\usebox{\resyncPanelBox}%
+  \llap{\makebox[\linewidth][l]{\hspace{\resyncPanelRight\linewidth}%
+    \raisebox{\dimexpr\ht\resyncPanelBox-\resyncPanelDrop\linewidth\relax}[0pt][0pt]{\makebox[0pt][r]{\footnotesize\bfseries (#2)}}}}%
+  \end{minipage}}

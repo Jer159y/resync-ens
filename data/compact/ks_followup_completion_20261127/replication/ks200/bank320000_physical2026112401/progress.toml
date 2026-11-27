@@ -1,0 +1,4 @@
+case = "ks200"
+policy = "full"
+segment = 200
+segments = 200

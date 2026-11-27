@@ -1,0 +1,2 @@
+valid,w1,spread_loss,spread,crps,coverage90,coverage50,coverage90_absdev,effective_dimension,eligible_dimension,mean_eligible_members,excluded_missing_truth,nonfinite_returned_values,n_base_windows,n_distribution_windows
+true,0.02819423630641083,0.015791694974854834,0.9989564138969789,0.5664267795471222,0.895000000000001,0.5046249999999997,0.040000000000000036,12.786102178520188,12.786102178520188,300.0,0,0,200,20

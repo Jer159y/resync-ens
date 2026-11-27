@@ -1,0 +1,3 @@
+k,multiplier,valid,w1,spread_loss,trial,method,weight,acquisition,feasibility
+90,1,true,0.08426571563387789,0.0789972889076141,4,initial_design,0.9,NaN,NaN
+60,1,true,0.08419785759444343,0.08111455826839241,7,gp_ei_times_feasibility,0.1,3.949303263757656e-5,0.8051115194309946

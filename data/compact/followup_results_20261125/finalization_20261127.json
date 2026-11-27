@@ -1,0 +1,77 @@
+{
+  "complete": true,
+  "date": "2026-11-27",
+  "history_conditions": {
+    "duffing": 28,
+    "ks200": 28
+  },
+  "crossed_replication_pairs": {
+    "duffing": 6,
+    "ks200": 6
+  },
+  "main_figures": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "completed_gmd_appendix_figures": [
+    "A3",
+    "A4"
+  ],
+  "raw_retrieved": false,
+  "primary_tests_or_bo_changed": false,
+  "causal_threshold_hypothesis_added_to_paper": false,
+  "hypothesis_note": "paper/policy/REPLAY_LENGTH_RESEARCH_PLAN_20261124.md",
+  "original_duffing_refill_failure_preserved": true,
+  "ks_failures": [],
+  "build": {
+    "main": {
+      "pages": 32,
+      "sha256": "c05044a952130b4a48e148450387b58672b7ddefac8ad1f1a97e3bd06b877e11",
+      "overfull_or_unresolved": false
+    },
+    "main_gmd": {
+      "pages": 32,
+      "sha256": "2749d3e6f134d33bfb31371383545038dc22fe3c174c1f4e2d7ca9429a36283b",
+      "overfull_or_unresolved": false
+    },
+    "supplement": {
+      "pages": 24,
+      "sha256": "65b31f80b2f85db58188e3a02620ddcb8be658c414958f23f02b74affd274e1a",
+      "overfull_or_unresolved": false
+    },
+    "main_chaos": {
+      "pages": 9,
+      "sha256": "40653e7690b26197f948cb572de0b2da974d91e624fa0b747b8c3becbfd1a18e",
+      "overfull_or_unresolved": false
+    },
+    "main_pre": {
+      "pages": 22,
+      "sha256": "768c22e7a563217ed7d55d7a1792c3a07d172c3fb329fc445c26e2e94e9f18a3",
+      "overfull_or_unresolved": false
+    },
+    "main_v4_review": {
+      "pages": 21,
+      "sha256": "0841e1bd6edc1d86cc789df301d5c92e7ef66a2cda1048a232082abbc8a93ab7",
+      "overfull_or_unresolved": false
+    },
+    "duffing_replay_cost": {
+      "pages": 1,
+      "sha256": "3043524370aac35092fdcdc21a73d8936adedeb9f1abadd51737cee0ec939a23",
+      "overfull_or_unresolved": false
+    },
+    "replication_comparison": {
+      "pages": 1,
+      "sha256": "6553d43a1ceab04c0a7796695bdffce647ea08e895d5e18945aee4698c357a4a",
+      "overfull_or_unresolved": false
+    }
+  },
+  "data_sha256": {
+    "history.csv": "044da8914385d99c18162f961a2ab5e21aa1288fe28da52d9d56b86bc3d4490a",
+    "replication.csv": "0bc60f1f5105c872e6b8af215da4d2b3310269a0e8a189e5228909c243873c58",
+    "verification.json": "a5a510add35eeb73bb7f1d298ada6679db1288074195a92d5493202c8c1fec19",
+    "selected_comparisons.csv": "58d2b91e19fe0147c5998b2c8fa17bd1ac245ba6ce8f00f17f668d1468bdf7f7"
+  },
+  "remaining_author_owned_items": "paper/versions/gmd/AUTHOR_CONFIRMATIONS.md"
+}

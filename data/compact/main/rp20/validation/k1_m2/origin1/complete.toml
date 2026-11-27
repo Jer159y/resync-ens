@@ -1,0 +1,9 @@
+end_to_end_seconds = 29.561516046524048
+evaluation_role = "validation"
+first_own_sha256 = "a15eb92bde18ccf77cd90432e0d5bd4e3c2a126eb22d52fff92fffa432cec89a"
+forecast_seconds = 21.869301080703735
+k = 1
+multiplier = 2
+status = "complete"
+test_accessed = false
+valid = true

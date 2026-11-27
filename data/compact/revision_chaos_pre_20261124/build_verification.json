@@ -1,0 +1,28 @@
+{
+  "build": {
+    "main": {
+      "pages": 21,
+      "sha256": "8fc4888000a69038eaaf89bd211809d93752331860ca7d4c7b81d8dd3f8aa644",
+      "warnings": []
+    },
+    "main_chaos": {
+      "pages": 9,
+      "sha256": "40653e7690b26197f948cb572de0b2da974d91e624fa0b747b8c3becbfd1a18e",
+      "warnings": [],
+      "format": "AIP REVTeX4.2 two-column"
+    },
+    "main_pre": {
+      "pages": 22,
+      "sha256": "439300197d1ee26e68627af5664ede4c176e3fd0c2461aea6a7a79c8ee72f1b0",
+      "warnings": []
+    },
+    "supplement": {
+      "pages": 20,
+      "sha256": "e9669fc572e016fa556d3a7d2be4b0f1b910b23f1e6845b99df662f6d5629e39",
+      "warnings": []
+    }
+  },
+  "original_control_anchors_verified": true,
+  "followup_outcomes_not_claimed": true,
+  "focus": "member autonomous behavior linked to ensemble consequences; Chaos primary, PRE provisional"
+}

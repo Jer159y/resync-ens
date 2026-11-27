@@ -1,0 +1,13 @@
+baseline_score = 1.0
+history_csv_sha256 = "e05634d7e72844a7f6326abd1b5500b2fae0861b54fed161a25e9e86e189ff1e"
+k = 30
+multiplier = 1
+n_corrected_evaluated = 12
+scales = [0.0880690793817103, 0.1609244957057567]
+score = 0.2615042565256628
+spread_loss = 0.04208244060630112
+status = "selected"
+system = "cdv"
+test_accessed = false
+test_eligible = true
+w1 = 0.01577277056644056

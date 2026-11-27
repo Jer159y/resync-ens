@@ -1,0 +1,7 @@
+data_manifest_sha256 = "14ba3b4e116cda124cb086900cfe4c87cea4853b62ae85d68d6056f00b610f32"
+floor_s = 0.0031082720256138327
+floor_w = 0.04325955288370661
+scope = "Conditional empirical reference draws; separate target/check roles; mean reference losses are normalization scales, not universal error floors or confidence intervals"
+spread_reference = 1.001921145303582
+system = "thomas16"
+w1_status = "computed"

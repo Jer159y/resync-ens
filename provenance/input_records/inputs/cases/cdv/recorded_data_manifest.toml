@@ -1,0 +1,59 @@
+base_tau = 223
+calibration_physical_seed = 2026112211
+data_preparation_source_sha256 = "0a4b017fd94df4e736cb9760099abac902ce46f9e3b67e3f0f649eaa41c174b1"
+no_model_fit = true
+physical_generator = "scheme_fresh_with_legacy_frozen_physics_config"
+protocol_config_sha256 = "69f142e570309306458b028f9b9bb23e29033e317fb60f2e7efe54abe497600a"
+protocol_version = "resync_v4_20261122"
+reserved_test_physical_seed = 2026112213
+scope = "Calibration and validation are separately seeded physical integrations. Roles within calibration and both validation forecasts are disjoint. Temporal windows are not claimed independent."
+status = "frozen_data_plan"
+system = "cdv"
+test_generated = false
+training_prefix_length = 21000
+training_prefix_source = "outputs/research/quality_scheme_bo_20261119/cdv/validation_data.jld2"
+training_source_role = "only_preserved_original_training_prefix_is_reused"
+validation_fresh_length = 24300
+validation_length_per_origin = 8920
+validation_origin_offsets = [1000, 15380]
+validation_physical_seed = 2026112212
+
+[calibration_indices.check_targets]
+first = 811721
+last = 900920
+length = 89200
+
+[calibration_indices.population_window_pool]
+first = 93661
+last = 807260
+length = 713600
+
+[calibration_indices.w1_target_bank]
+first = 1
+last = 89200
+length = 89200
+
+[[validation_origins]]
+origin = 1
+
+    [validation_origins.forecast_fresh]
+    first = 1001
+    last = 9920
+    length = 8920
+
+    [validation_origins.synchronization_fresh]
+    first = 1
+    last = 1000
+    length = 1000
+[[validation_origins]]
+origin = 2
+
+    [validation_origins.forecast_fresh]
+    first = 15381
+    last = 24300
+    length = 8920
+
+    [validation_origins.synchronization_fresh]
+    first = 14381
+    last = 15380
+    length = 1000

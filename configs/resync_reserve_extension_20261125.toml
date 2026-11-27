@@ -1,0 +1,15 @@
+version = "reserve_extension_v1_20261125"
+case = "duffing"
+bank_seed_start = 330000
+physical_seed = 2026112402
+prefix_check_physical_seed = 2026112401
+original_total_models = 450
+expanded_total_models = 750
+ensemble_members = 300
+base_intervals = 200
+refill_p = 0.1
+refill_max_rounds = 50
+refill_random_seed = 777
+policies = ["none", "full"]
+output_root = "outputs/research/resync_reserve_extension_20261125"
+scope = "user-authorized reserve-budget extension; append next deterministic reservoir seeds under unchanged training; preserve original 450-model failure"

@@ -1,0 +1,10 @@
+comparison_sha256 = "8165f2c62028a0ab8c4055e588ad52824ab333c698bc2744c984d86a3cc12e5f"
+n_base_intervals = 200
+no_training = true
+paired_first_base_verified = true
+physical_data_sha256 = "e77394e9f0909a64ee8f668bb3d05296ea3c532f907139e5c2fc830fa31a9e39"
+physical_seed = 2026112213
+selection_sha256 = "8cd881772443b481f1b247897a2c9ae40726b01bde52db3c496b694dc5b31859"
+status = "complete"
+system = "maooam56"
+test_accessed = true

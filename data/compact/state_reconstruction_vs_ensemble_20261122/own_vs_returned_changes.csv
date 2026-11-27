@@ -1,0 +1,7 @@
+study,label,metric,original_policy,new_policy,original,new,relative_change_percent
+blind_repair_probe_20261121,Pilot A / N20 / origin1 / 8 intervals,own_w1,resync,repair_fixed_anchor,0.589640876536819,0.1574259669779692,-73.30138169819726
+blind_repair_probe_20261121,Pilot A / N20 / origin1 / 8 intervals,returned_w1,resync,repair_fixed_anchor,0.08891381583734717,0.0842723699804521,-5.2201627083307445
+blind_repair_probe_20261121,Pilot A / N20 / origin1 / 8 intervals,returned_spread_loss,resync,repair_fixed_anchor,0.08178519088216991,0.09274302940203742,13.398316249765507
+population_repair_second_start_20261121,Pilot B / N60 / origin2 / 20 intervals,own_w1,resync,population_fixed_anchor,0.2018371355064744,0.09597111964951432,-52.45120804519353
+population_repair_second_start_20261121,Pilot B / N60 / origin2 / 20 intervals,returned_w1,resync,population_fixed_anchor,0.07147997708881208,0.07801998435460843,9.149425520479038
+population_repair_second_start_20261121,Pilot B / N60 / origin2 / 20 intervals,returned_spread_loss,resync,population_fixed_anchor,0.04514536340277671,0.05643125894472326,24.999013611334455

@@ -1,0 +1,63 @@
+balanced_input = false
+base_tau = 217
+id = "rp20"
+members = 300
+pool_members = 450
+seed_start = 1234
+sync_len = 1000
+training_prefix_length = 21000
+validation_origins = [1000, 15020]
+
+[bo]
+bo_seed = 20261123
+corrected_evaluations = 12
+exploration_every_acquisition_steps = 4
+feasibility_length_scale = 0.5
+initial_design = [[30, 1], [6, 2], [60, 4], [90, 1]]
+
+[calibration]
+base_window_draws = 512
+check_base_intervals = 400
+distribution_window_draws = 128
+gap_base_intervals = 20
+population_base_intervals = 3200
+seed = 20261125
+target_base_intervals = 400
+
+[design]
+corrected_grid_size = 21
+correction_counts = [1, 3, 6, 15, 30, 60, 90]
+donor = "round_robin"
+initial_refill_fraction = 0.1
+initialization_status = "freeze_exact_cohort_and_refill_manifest_before_execution"
+interval_multipliers = [1, 2, 4]
+members = 300
+replay = "full_history"
+search_preference = "BO12_with_frozen_v4_acquisition_and_baseline_inclusive_selection"
+selector = "feature_distance_from_centroid"
+test_base_intervals = 200
+validation_base_intervals = 40
+validation_origins = 2
+
+[numerics]
+constant_amplitude = "RMS of per-coordinate time-demeaned sampled standardized output"
+constant_amplitude_tolerance = 1.0e-10
+effective_dimension_sample_times = 64
+frozen_before_new_validation = true
+positive_loss_numerical_floor = 1.0e-12
+quantile_convention = "Hyndman_Fan_type_7_alpha_1_beta_1"
+selection_absolute_tie_tolerance = 1.0e-10
+selection_relative_tie_tolerance = 1.0e-6
+
+[physical_seeds]
+calibration_physical_seed = 2026112341
+reserved_test_physical_seed = 2026112343
+validation_physical_seed = 2026112342
+
+[physics]
+dt = 0.5
+internal_dt = 0.1
+name = "rp20"
+parameter = 0.18
+reference_dir = "artifacts/inputs/qg"
+transient_time = 200000.0

@@ -1,0 +1,24 @@
+{
+  "source_sha256": "0d56fb29525c10dcb5b07329907e3d7cb02d3c7917a809565fa9a0321873308b",
+  "truth": "U[-1,1], analytic population integrals; no sampled test truths",
+  "N_before": 300,
+  "N_after_removal": 200,
+  "oracle": "remove exactly the 100 constant +2 members outside true support; zero false positives; also exactly worst point errors at matched truth y=0",
+  "retained_cases": [
+    "200 balanced in-support quantiles",
+    "200 identical -1 predictions: extreme shared bias",
+    "200 distinct quantiles in [-1,-0.8]: nondegenerate shared-bias robustness"
+  ],
+  "intervention": "drop impossible members and renormalize remaining weights; no replay or model training",
+  "distinction": "perfect identification of these impossible members does not make retained in-support members well-distributed",
+  "score": "finite empirical CRPS with N^2 denominator; expected over independent U[-1,1] truth",
+  "checks": [
+    "W1 exact 8/9 to 1",
+    "expected CRPS exact 2/3 to 1",
+    "coverage 1 to 0",
+    "exact worst-error members selected at truth y=0; member MAE improves but CRPS worsens",
+    "fixed-N clone control has same W1/CRPS/coverage as removal",
+    "balanced case improves W1/CRPS"
+  ],
+  "scope": "constructed counterexample to a universal guarantee; not evidence of frequency or cause in ESN runs"
+}

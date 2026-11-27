@@ -1,0 +1,13 @@
+baseline_score = 1.0
+history_csv_sha256 = "ddcad8ed9ff1333d024e87dc5f38469aa21ad8ed7f99b9cb159684cc4a9a2e78"
+k = 30
+multiplier = 1
+n_corrected_evaluated = 12
+scales = [2.9842034854275603, 2.403784803060743]
+score = 0.008923497116800407
+spread_loss = 0.021450166759521175
+status = "selected"
+system = "duffing"
+test_accessed = false
+test_eligible = true
+w1 = 0.023406484713376058

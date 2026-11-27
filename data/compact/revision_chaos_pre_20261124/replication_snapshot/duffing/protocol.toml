@@ -1,0 +1,36 @@
+no_new_selection = true
+selection_sha256 = "b962cab696040e54c91cf49ad7a116fe811a1b873c77f6c17e3821e718d31711"
+stage = "replication"
+
+[design]
+base_intervals = 200
+cases = ["duffing", "ks200"]
+constant_tolerance = 1.0e-10
+history_lengths_in_base_intervals = [0.25, 1.0, 4.0]
+members = 300
+new_bank_seed_starts = [310000, 320000, 330000]
+new_physical_seeds = [2026112401, 2026112402]
+output_root = "outputs/research/resync_revision_20261124"
+policies = ["none", "record_only", "boundary", "recent_quarter", "recent_one", "recent_four", "full"]
+replication_policies = ["none", "full"]
+rerun_bo = false
+reserve_members = 150
+scope = "postselection diagnostics on original tests; prospective crossed bank/physical-seed confirmation at fixed original scheme; not new hyperparameter selection"
+selected_parameters_unchanged = true
+selection_from_followup = false
+slice_directions = 32
+slice_samples = 2048
+slice_seed = 20261124
+smoke_base_intervals = 10
+version = "resync_revision_v1_20261124"
+
+[source_sha256]
+"/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/tools/run_boundary_history_controls_20261123.jl" = "4171d29edf63b48e848a391fea699a49dd1391199a3ad7056e8ab4c49db40f1a"
+"/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/tools/run_resync_revision_20261124.jl" = "f81b9dff2afa4ac8dbdab685a72046e68c043ca1c4988d2857c1f22ddb619837"
+"configs/resync_revision_20261124.toml" = "47b7930e77023b2b30968e50ae33d1ab479a6b9ddd82902bacc5eab717ea5a48"
+"configs/resync_v4_bo_test_20261122.toml" = "70fa664a805731cd12dd7b243da7a94899bab9f3b1262150354c881831718ee5"
+"configs/resync_v4_protocol_20261122.toml" = "69f142e570309306458b028f9b9bb23e29033e317fb60f2e7efe54abe497600a"
+"src/core/training.jl" = "bd59434b66c28f35852bd5ddd64244351b19240502dd743556f206a54ea7e0f2"
+"src/engine/resync_engine.jl" = "a4119263431f288fe2b12f6c195d7adec274ad86580216041c3d118d3c145648"
+"tools/resync_v4_evaluator.jl" = "69a9ad20f01c1a6878249ba24fdba5af89b0325e49f725e2d6286d70cde0f2d3"
+"tools/resync_v4_metrics.jl" = "61a887ba6e2e9a89343fb87a60b3d41395c28250ac6f365b77734ff87a09170f"

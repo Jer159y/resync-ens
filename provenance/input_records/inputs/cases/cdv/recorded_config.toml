@@ -1,0 +1,51 @@
+[data]
+noise = 1.0e-6
+normalize = true
+reference_len = 500000
+shift = 1000
+train_len = 20000
+
+[esn]
+bias_scaling = 0.5
+degree = 6.0
+input_scaling = 0.1
+leak = 0.3
+radius = 0.9
+readout = "nlat1"
+res_size = 500
+ridge = 1.0e-6
+seed = 1234
+sparse = true
+washout = 500
+
+[experiment]
+criterion = "feature_distance_from_centroid"
+health_window = 0
+mahal_var_frac = 1.0
+n_ensemble = 300
+n_segments = 200
+p = 0.1
+reserve = 150
+tau = 0
+tau_lyap = 5.0
+
+[playground]
+n_seeds = 3
+rollout_len = 20000
+
+[system]
+C = 0.1
+N = 6
+b = 0.5
+beta = 1.25
+dt = 1.0
+gamma = 0.2
+int_dt = 0.05
+n_saved = 1200000
+name = "cdv"
+reduce = "none"
+reduce_k = 0
+seed = 1
+transient = 10000
+x1s = 0.95
+x4s = -0.76095

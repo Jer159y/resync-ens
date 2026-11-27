@@ -1,0 +1,79 @@
+{
+  "status": "complete",
+  "bank_seed_start": 330000,
+  "physical_seed": 2026112402,
+  "n_members": 300,
+  "base_intervals": 200,
+  "total_model_cap": 750,
+  "reserve_used": 212,
+  "paired_initial_forecast_verified": true,
+  "successful_prefix_cohort_unchanged": true,
+  "original_model_hashes_unchanged": true,
+  "original_450_model_cap_failure_preserved": true,
+  "source_sha256": {
+    "snapshot/supervisor_plan.json": "9ecd64af433c3d1a044c09dd9a0b8c0897a543d56be7c5795db59fa617cd33e5",
+    "snapshot/complete.toml": "6b43175ed7cae9322e1104ae8509a5ddbb8269f71c0c11dd38fb2919245334bf",
+    "snapshot/successful_prefix_check.toml": "f8b871b5d125e09a5fbac77a05ecd3c55d9123a78b9fa1808dd352a5d4c83153",
+    "snapshot/additional_models.toml": "46f416125ee4711adff3cd68ca17bfbb4abf4a5bcc739596671fa9084bb8ad87",
+    "snapshot/protocol.toml": "41d247af5ba4e79ace469860600da0b1f396835b69d1c24d129cc51c4125efda",
+    "snapshot/progress.toml": "a87ae4cb0b73b9bcfdfea3a68856489136889a1f400cbd0136227b342053c4e0",
+    "snapshot/automation_status.json": "5f2353b3d00adc8ae5494b75f71ac68f119e50e2030cf90a81ef8f71fabfc83f",
+    "snapshot/cohort.toml": "a1b79cc67aaa1cbe5b39fa064d7aa4a12d5766d8d03e49591f270892d3e9be58",
+    "snapshot/full/own_distribution_windows.csv": "430d423da1cfd1b0b0e2d2e71fcf0b08495ea9d8022102c0eff836cf88ace2cb",
+    "snapshot/full/own_base_windows.csv": "8e9df9bb1763bada45d670399dd9d23352599210a9bed55ef05e8971c986adf9",
+    "snapshot/full/complete.toml": "1640fc67c922bcbcbeade86ccc90a7c9808becab97fefde614d2dcdcf1f1c36f",
+    "snapshot/full/returned_base_windows.csv": "3f710bba18aab7861bed3104c8fb9588cafdc55fc8249e3c8831e83caed46c18",
+    "snapshot/full/own_summary.csv": "9103c0075295a7a3e37000f184fd9093ff54e381b5c3a3de3f5cd63f702df1d1",
+    "snapshot/full/boundary_inputs.csv": "32b33d3d89ceb3c9b52f46f2e2801e20558d2cbb179ef9558083dbb21eafe6ef",
+    "snapshot/full/sliced_windows.csv": "0f63736da9a0c31522b2f9f5f95335aa40b3c60eacc356639d1d7635476875af",
+    "snapshot/full/temporal_acf.csv": "ed7d88768a9c4c1ac48d064660b889290d0dca786391dce3da69f464ffa71bb6",
+    "snapshot/full/returned_distribution_windows.csv": "22bd24d68433c4d128a4436687615764e37adc4922d2aa8e8fd5c03623216b7e",
+    "snapshot/full/flag_windows.csv": "94292a0b875a3a8ed2cecc7f58e68b7e7a2f038d8eb874fb8061b5daa0fdf7d5",
+    "snapshot/full/flag_member_summary.csv": "a3911a53f0e666e04ff7120c9d3a82944bfb858aeaad5831e48cbe907ec806a0",
+    "snapshot/full/returned_summary.csv": "095753ec279f90f4336b552188800c06bc705d9246867d730f5718f5a4f8dac4",
+    "snapshot/none/own_distribution_windows.csv": "0bf4918342eeb430a3037739a7407ab08a14aadc4147bd56a1bb2107b77cced3",
+    "snapshot/none/own_base_windows.csv": "07dcd064e4ec6db6c73c2f83e55b221435024cd73221e132d9172ed93f6d6ee7",
+    "snapshot/none/complete.toml": "d41e6a063bbbeb5cbe568cde9124aaaec70845d841c772b9faad65a9deb4ae78",
+    "snapshot/none/returned_base_windows.csv": "07dcd064e4ec6db6c73c2f83e55b221435024cd73221e132d9172ed93f6d6ee7",
+    "snapshot/none/own_summary.csv": "5a595753dc252f0486e1ae2220849f7875c147a7789c93ec6903db06ee0d05a6",
+    "snapshot/none/boundary_inputs.csv": "694c3358548768ffb1a59d14e54f28eb5aa4517f055447e3e2b9a92609c9fea6",
+    "snapshot/none/sliced_windows.csv": "9c88520670799e1a740c06e2feb7ba3f7b0d46e8c7f8bf424fcd46b4e2621d97",
+    "snapshot/none/temporal_acf.csv": "894b4cc0a6c7a337fc3bbe869984c800698a2db093285dc6db1e99c8e4197d3d",
+    "snapshot/none/returned_distribution_windows.csv": "0bf4918342eeb430a3037739a7407ab08a14aadc4147bd56a1bb2107b77cced3",
+    "snapshot/none/flag_windows.csv": "88036bcda9e5478ad151820b2eaaff26bd7ae211ad6f66224da2c4c45538f34f",
+    "snapshot/none/flag_member_summary.csv": "7eceb0ce844307535dbec4c1e1d0084e2beabe282db90487947256558875a0a3",
+    "snapshot/none/returned_summary.csv": "5a595753dc252f0486e1ae2220849f7875c147a7789c93ec6903db06ee0d05a6",
+    "snapshot/none/member_flag_events.csv": "cfad40bd8a9df4739f5812ad22d37baed295d115cb67eeb781f79735f615509b"
+  },
+  "results": [
+    {
+      "metric": "w1",
+      "no_intervention": 3.6853437818999213,
+      "resync": 0.027105404956608063,
+      "difference": -3.6582383769433133,
+      "relative_change_percent": -99.26450810125958
+    },
+    {
+      "metric": "spread_loss",
+      "no_intervention": 2.640423389780651,
+      "resync": 0.011856201390473076,
+      "difference": -2.628567188390178,
+      "relative_change_percent": -99.55097347507372
+    },
+    {
+      "metric": "spread",
+      "no_intervention": 14.11205663169364,
+      "resync": 0.9936140284133832,
+      "difference": -13.118442603280258,
+      "relative_change_percent": -92.9591125209782
+    },
+    {
+      "metric": "crps",
+      "no_intervention": 0.7631439551958731,
+      "resync": 0.5643386382824702,
+      "difference": -0.19880531691340286,
+      "relative_change_percent": -26.050827705550827
+    }
+  ],
+  "independent_iid_confidence_interval": false
+}

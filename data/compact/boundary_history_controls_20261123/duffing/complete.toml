@@ -1,0 +1,10 @@
+base_intervals = 200
+bo_rerun = false
+case = "duffing"
+status = "complete"
+
+[conditions]
+b0_r0 = "complete"
+b0_r1 = "complete"
+b1_r0 = "complete"
+b1_r1 = "complete"

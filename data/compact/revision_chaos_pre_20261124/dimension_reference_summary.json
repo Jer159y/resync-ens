@@ -1,0 +1,50 @@
+[
+  {
+    "system": "duffing",
+    "available": true,
+    "summary": {
+      "mean": 17.160415654297463,
+      "median": 17.17201769571301,
+      "n": 512,
+      "q05": 16.75579952051076,
+      "q95": 17.539728730941782
+    },
+    "source": "paper/support/revision_chaos_pre_20261124/calibration_sources/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/outputs/research/resync_v4_20261122/duffing/calibration_v1/summary.toml"
+  },
+  {
+    "system": "cdv",
+    "available": true,
+    "summary": {
+      "mean": 20.058625427062335,
+      "median": 20.106016837330735,
+      "n": 512,
+      "q05": 18.463608896025377,
+      "q95": 21.559664313979397
+    },
+    "source": "paper/support/revision_chaos_pre_20261124/calibration_sources/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/outputs/research/resync_v4_20261122/cdv/calibration_v1/summary.toml"
+  },
+  {
+    "system": "rp20",
+    "available": false,
+    "summary": null,
+    "source": "paper/support/revision_chaos_pre_20261124/calibration_sources/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/outputs/research/rp20_v4_20261123/prepared/rp20/calibration_v1/summary.toml"
+  },
+  {
+    "system": "ks",
+    "available": true,
+    "summary": {
+      "mean": 48.67575114042538,
+      "median": 48.7246812406937,
+      "n": 512,
+      "q05": 46.5386312657413,
+      "q95": 50.670757035660145
+    },
+    "source": "paper/support/revision_chaos_pre_20261124/calibration_sources/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/outputs/research/ks200_v4_20261123/prepared/ks/calibration_v1/summary.toml"
+  },
+  {
+    "system": "thomas16",
+    "available": false,
+    "summary": null,
+    "source": "paper/support/revision_chaos_pre_20261124/calibration_sources/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/outputs/research/thomas16_v4_20261123/prepared/thomas16/calibration_v1/summary.toml"
+  }
+]

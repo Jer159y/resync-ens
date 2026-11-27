@@ -1,0 +1,3 @@
+kind,event,bank,origin,recipient,donor,boundary_step,qualifying_illustrations,policy_selected
+lstm,b1_o1001_m145_t2000,1,1001,145,162,2000,14,false
+esn,b1_o1001_m32_t2000,1,1001,32,41,2000,8,false

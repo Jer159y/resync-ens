@@ -1,0 +1,18 @@
+{
+  "verified": true,
+  "rows": 45,
+  "snapshot_base": 40,
+  "old_CDF_panels_active": false,
+  "shared_percentage_y_limits": [
+    0,
+    70
+  ],
+  "counts_include_all_300_slots": true,
+  "data_panel_sha256": {
+    "reference_exceedance_c5.pdf": "be73b9d891f729508cb72b4a24a6a8e2170ac1f02be31814384bc40fc4490334",
+    "reference_exceedance_c4.pdf": "9007012c1439c6e9169fd910e6fad4a90390519db843169e18ebee2f2f3412d0",
+    "reference_exceedance_c3.pdf": "19ee81e4b1dcf5995427ff9022cfd348f1f101071abe0f781ab89e5491938c5a",
+    "reference_exceedance_c2.pdf": "59a836e95578af3601b3f1b2c4a4d7deb60bba50d7ceabc762df622cbda6bd04",
+    "reference_exceedance_c1.pdf": "52afe655cc19a2a62e2d523710809f5cc15c579848217441102fc6b63324f93c"
+  }
+}

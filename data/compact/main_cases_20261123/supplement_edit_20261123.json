@@ -1,0 +1,10 @@
+{
+  "old_words_approx": 5450,
+  "new_words_approx": 3271,
+  "definitions_and_numerical_results_unchanged": true,
+  "removed": "duplicate main-score table and prose; duplicate Duffing/CDV change rows; expanded legacy pilot inventory retained in archive; engineering execution/recovery notes",
+  "retained": "settings/calibration/selection rules, validity/exclusion criteria, diagnostic definitions, adverse additional cases, illustrative trade-offs, oracle counterexample, information identity",
+  "old_pages": 20,
+  "new_pages": 14,
+  "figure3_transposition": "system rows, metric columns; 340x110 panels; main Figure3 only"
+}

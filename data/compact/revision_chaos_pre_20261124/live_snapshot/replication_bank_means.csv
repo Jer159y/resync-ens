@@ -1,0 +1,7 @@
+case,bank_seed_start,scope,n_shared_physical_seeds,w1_mean_difference,spread_loss_mean_difference,crps_mean_difference,uncertainty
+duffing,310000,own,2,-3.768609658971532,-1.7456532397188416,-0.21667995411367846,descriptive_bank_means_shared_physical_seeds_no_iid_CI
+duffing,310000,returned,2,-3.932155897705753,-2.7004928319917796,-0.2182473141818625,descriptive_bank_means_shared_physical_seeds_no_iid_CI
+duffing,320000,own,2,-2.830292688626036,-1.477276573778266,-0.15255319934291772,descriptive_bank_means_shared_physical_seeds_no_iid_CI
+duffing,320000,returned,2,-2.990710216174879,-2.4647108503037796,-0.1536108319318058,descriptive_bank_means_shared_physical_seeds_no_iid_CI
+duffing,330000,own,1,-3.155876560364476,-1.6268762849103156,-0.16254732421029683,descriptive_bank_means_shared_physical_seeds_no_iid_CI
+duffing,330000,returned,1,-3.3035048541184207,-2.5719343139443835,-0.1637752254627205,descriptive_bank_means_shared_physical_seeds_no_iid_CI

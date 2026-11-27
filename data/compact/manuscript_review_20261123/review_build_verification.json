@@ -1,0 +1,43 @@
+{
+  "checked_date": "2026-11-23",
+  "artifacts": {
+    "main.pdf": {
+      "sha256": "97e481f6f50098a993777651e62a2ef15660ac9d71314637b7207aaf16c5e339",
+      "bytes": 2196460,
+      "pages": 20,
+      "warning_lines": []
+    },
+    "supplement.pdf": {
+      "sha256": "0f896fd82ec2b1a8ae9dd92b025b123c04ff4150d72569a8a71f3b5045823ab4",
+      "bytes": 121073,
+      "pages": 15,
+      "warning_lines": []
+    },
+    "sections/resync_body_v4.tex": {
+      "sha256": "9a7b4f120011fb8ac7f82e26eebf82c109c7d414574e27499f8d591d0fafa32e",
+      "bytes": 26083
+    },
+    "resync_supplement_v4.tex": {
+      "sha256": "4bb490a5beed43b40a91d6dcac1710800d1813e228ffd3eaddfb011c8daecc76",
+      "bytes": 12253
+    },
+    "support/manuscript_review_20261123/TWO_TIME_SERIES_METRICS.md": {
+      "sha256": "8ecd9cd81fd562b2e5b40b02a1a95d8a05013ea3d324ce50f9bcd668d41fc57e",
+      "bytes": 12028
+    }
+  },
+  "controls_last_observed": {
+    "status": "running",
+    "case": "ks200",
+    "condition": "b1_r1",
+    "segment": 19,
+    "segments": 200,
+    "duffing_complete": true,
+    "duffing_conditional_rows": 796,
+    "updated_utc": "2026-11-23T15:01:19.714189+00:00",
+    "bo_rerun": false
+  },
+  "current_case_count": 5,
+  "primary_comparison": "Resync versus no correction",
+  "figure3_layout": "system_rows_metric_columns"
+}

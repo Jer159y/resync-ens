@@ -1,0 +1,13 @@
+baseline_score = 1.0
+history_csv_sha256 = "32977412b35583bf4a86d12c0485caa33aed2f1e9dec68137fb99fc6f68cb02b"
+k = 60
+multiplier = 1
+n_corrected_evaluated = 12
+scales = [0.1785818682066525, 0.21532689317200723]
+score = 0.4714804388596205
+spread_loss = 0.08111455826839241
+status = "selected"
+system = "ks"
+test_accessed = false
+test_eligible = true
+w1 = 0.08419785759444343

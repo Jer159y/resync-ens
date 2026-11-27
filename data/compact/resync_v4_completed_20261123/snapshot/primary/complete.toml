@@ -1,0 +1,3 @@
+all_selection_frozen_sha256 = "4d51c8930af5235795f0a0b2ac6047b9ad0d496399c8353620a4b2f3af382573"
+status = "complete"
+systems = ["duffing", "cdv", "ks", "maooam56"]

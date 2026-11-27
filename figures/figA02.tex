@@ -1,0 +1,15 @@
+% Native data PDF is unchanged; TeX overlays labels above the top y-axis ticks.
+\documentclass[border=3pt]{standalone}
+\usepackage{graphicx}
+\begin{document}
+\begin{minipage}{17cm}
+\setlength{\unitlength}{\linewidth}
+\noindent\includegraphics[width=\linewidth]{figures/panels/paired_event_contrasts.pdf}%
+\llap{\begin{picture}(1,0)
+\put(.075,.597){\makebox(0,0)[r]{\footnotesize\bfseries(a)}}
+\put(.575,.597){\makebox(0,0)[r]{\footnotesize\bfseries(b)}}
+\put(.075,.330){\makebox(0,0)[r]{\footnotesize\bfseries(c)}}
+\put(.575,.330){\makebox(0,0)[r]{\footnotesize\bfseries(d)}}
+\end{picture}}
+\end{minipage}
+\end{document}

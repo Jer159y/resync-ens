@@ -1,0 +1,11 @@
+name = "rp20"
+dimension = 20
+qgs_version = "1.0.0"
+source_url = "https://qgs.readthedocs.io/en/latest/files/examples/RP.html"
+tensor_sha256 = "0d8341d0a204ad7474ad8a682185d2d531bd5d216fbb91e0d875463005b10d8a"
+state_order = "All barotropic streamfunction modes, then all baroclinic temperature modes; no POD"
+sigma_qgs = 0.2
+sigma0 = 0.1
+rk4_step = 0.01
+rk4_steps = 100
+scope = "Official qgs tensor export; cs12 paper-parameter mapping still requires explicit-equation cross-check."

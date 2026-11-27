@@ -1,0 +1,14 @@
+{
+  "source_sha256": {
+    "configs/resync_reserve_extension_20261125.toml": "9f8e1abb1cbf684110e6af9173da8d8d90b9bdf8057c09facba8a6adc3b317cd",
+    "tools/run_resync_reserve_extension_20261125.jl": "bdb167ceba81488cc8de627bfc20cb19db64185ed5f128396138d568f52afe25",
+    "tools/run_resync_revision_20261124.jl": "f81b9dff2afa4ac8dbdab685a72046e68c043ca1c4988d2857c1f22ddb619837",
+    "configs/resync_revision_20261124.toml": "47b7930e77023b2b30968e50ae33d1ab479a6b9ddd82902bacc5eab717ea5a48",
+    "src/engine/resync_engine.jl": "a4119263431f288fe2b12f6c195d7adec274ad86580216041c3d118d3c145648",
+    "src/core/training.jl": "bd59434b66c28f35852bd5ddd64244351b19240502dd743556f206a54ea7e0f2",
+    "tools/launch_resync_reserve_extension_20261125.py": "653c0740fb7dea27b91fbaa4d504abbd30e9f3fbb8ba0999d302e806a51ae39d"
+  },
+  "user_authorized_reserve_increase": true,
+  "total_model_cap": 750,
+  "old_failure_preserved": true
+}

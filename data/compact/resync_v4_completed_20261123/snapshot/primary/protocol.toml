@@ -1,0 +1,40 @@
+julia_version = "1.12.5"
+threads = 4
+
+[execution]
+bo_seed = 20261122
+corrected_evaluations = 12
+data_protocol = "configs/resync_v4_protocol_20261122.toml"
+development_disclosure = "earlier validation and Duffing v4 operational smoke were inspected; no new BO history or final test inspected before this execution protocol"
+evaluation_rules = "configs/resync_v4_evaluation_rules_20261122.toml"
+execution = "single_Julia_process_sequential_systems; four_threads; compact_results_only"
+exploration_every_acquisition_steps = 4
+failure_handling = "finite_valid_loss_surrogate_only; observed_success_kernel_Beta11_feasibility_weight; no_numeric_penalty"
+feasibility_length_scale = 0.5
+final_selection = "frozen_v4_baseline_normalized_minimax_with_no_correction"
+initial_design = [[30, 1], [6, 2], [60, 4], [90, 1]]
+kernel = "Matern52"
+model_training = false
+output_root = "outputs/research/resync_v4_20261122/bo_test_v1"
+retain_forecast_raw = false
+run_final_test = true
+scalarization = "random_weight_augmented_Chebyshev_log_standardized"
+synchronization = "min(1000, origin-1) fresh observed samples before x0; excludes stitched training endpoint; new cohorts, no smoke-score reuse"
+systems = ["duffing", "cdv", "ks", "maooam56"]
+test_after = "all_system_selection_records_frozen"
+test_base_intervals = 200
+test_physical_seed = 2026112213
+test_policies = ["no_correction", "fixed_k30_m1", "validation_selected"]
+version = "resync_v4_bo_test_v1_20261122"
+
+[source_sha256]
+"/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/tools/resync_v4_bo.jl" = "6e5f292549a6b1ee8061a35d57838132000ff70fb8d588674abdc60658cc223a"
+"/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/tools/resync_v4_evaluator.jl" = "69a9ad20f01c1a6878249ba24fdba5af89b0325e49f725e2d6286d70cde0f2d3"
+"/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/tools/resync_v4_metrics.jl" = "61a887ba6e2e9a89343fb87a60b3d41395c28250ac6f365b77734ff87a09170f"
+"/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/tools/resync_v4_operational.jl" = "3d6fb3a6c6468a31baf5bb42f26577025b77000923f2e5e1b9634abe560e4188"
+"/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/tools/run_resync_v4_smoke.jl" = "2468f909f117f519590c95f5018fa0248badbc9c34711832fc1d0541507604ed"
+"/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/tools/run_resync_v4_study.jl" = "b82bfd7f25195d5760bf5b98cecedd2e9869f6313168e2f0e2a263269339e69b"
+"configs/resync_v4_bo_test_20261122.toml" = "70fa664a805731cd12dd7b243da7a94899bab9f3b1262150354c881831718ee5"
+"configs/resync_v4_evaluation_rules_20261122.toml" = "73fb7594dc5a25a1ceb9b4bf6aa18aa42989aa7e5e30d393edcc192a3d538283"
+"configs/resync_v4_protocol_20261122.toml" = "69f142e570309306458b028f9b9bb23e29033e317fb60f2e7efe54abe497600a"
+"src/engine/resync_engine.jl" = "a4119263431f288fe2b12f6c195d7adec274ad86580216041c3d118d3c145648"

@@ -1,0 +1,8 @@
+{
+  "automation_status": "needs_attention",
+  "completed_policy_scope_rows": 48,
+  "completed_replication_pair_scope_rows": 10,
+  "no_bo_rerun": true,
+  "independent_iid_CI_reported": false,
+  "notes": "Crossed bank/physical design. Missing or failed outputs are not imputed. Full forecast raw is not exported."
+}

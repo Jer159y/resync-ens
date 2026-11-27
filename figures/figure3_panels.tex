@@ -1,0 +1,16 @@
+% System rows and metric columns; all headings and panel letters are TeX.
+\begingroup
+\renewcommand{\resyncPanelDrop}{.025}
+\renewcommand{\resyncPanelRight}{.16}
+\setlength{\resyncFigureWidth}{\linewidth}
+\setlength{\tabcolsep}{0pt}
+\begin{tabular}{@{}c@{\hspace{.01\resyncFigureWidth}}c@{\hspace{.01\resyncFigureWidth}}c@{\hspace{.01\resyncFigureWidth}}c@{}}
+ & \resyncAxisHeader[.07]{.275\resyncFigureWidth}{Marginal W1} & \resyncAxisHeader[.07]{.275\resyncFigureWidth}{Spread $S$} & \resyncAxisHeader[.07]{.275\resyncFigureWidth}{CRPS}\\[1pt]
+\resyncRowHeader[6pt]{.13\resyncFigureWidth}{Duffing\\oscillator\\{\tiny$K=30,m=1$}} & \resyncPanel[.275\resyncFigureWidth]{a}{}{figures/panels/figure3_r1_c1.pdf} & \resyncPanel[.275\resyncFigureWidth]{b}{}{figures/panels/figure3_r1_c2.pdf} & \resyncPanel[.275\resyncFigureWidth]{c}{}{figures/panels/figure3_r1_c3.pdf}\\[1pt]
+\resyncRowHeader[6pt]{.13\resyncFigureWidth}{Charney--DeVore\\{\tiny$K=30,m=1$}} & \resyncPanel[.275\resyncFigureWidth]{d}{}{figures/panels/figure3_r2_c1.pdf} & \resyncPanel[.275\resyncFigureWidth]{e}{}{figures/panels/figure3_r2_c2.pdf} & \resyncPanel[.275\resyncFigureWidth]{f}{}{figures/panels/figure3_r2_c3.pdf}\\[1pt]
+\resyncRowHeader[6pt]{.13\resyncFigureWidth}{Kuramoto--\\Sivashinsky\\{\tiny$K=60,m=1$}} & \resyncPanel[.275\resyncFigureWidth]{g}{}{figures/panels/figure3_r3_c1.pdf} & \resyncPanel[.275\resyncFigureWidth]{h}{}{figures/panels/figure3_r3_c2.pdf} & \resyncPanel[.275\resyncFigureWidth]{i}{}{figures/panels/figure3_r3_c3.pdf}\\[1pt]
+\resyncRowHeader[6pt]{.13\resyncFigureWidth}{QG model\\(20 variables)\\{\tiny$K=90,m=1$}} & \resyncPanel[.275\resyncFigureWidth]{j}{}{figures/panels/figure3_r4_c1.pdf} & \resyncPanel[.275\resyncFigureWidth]{k}{}{figures/panels/figure3_r4_c2.pdf} & \resyncPanel[.275\resyncFigureWidth]{l}{}{figures/panels/figure3_r4_c3.pdf}\\[1pt]
+\resyncRowHeader[6pt]{.13\resyncFigureWidth}{Cyclic Thomas\\(16 variables)\\{\tiny$K=90,m=2$}} & \resyncPanel[.275\resyncFigureWidth]{m}{}{figures/panels/figure3_r5_c1.pdf} & \resyncPanel[.275\resyncFigureWidth]{n}{}{figures/panels/figure3_r5_c2.pdf} & \resyncPanel[.275\resyncFigureWidth]{o}{}{figures/panels/figure3_r5_c3.pdf}\\[1pt]
+\end{tabular}\par\smallskip
+\resyncCurveLegend
+\endgroup

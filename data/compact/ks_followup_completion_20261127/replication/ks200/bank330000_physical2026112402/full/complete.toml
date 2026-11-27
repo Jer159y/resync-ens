@@ -1,0 +1,8 @@
+base_intervals = 200
+diagnostics_and_forecast_seconds = 8464.032015800476
+first_own_sha256 = "ed53fdf922923f053fc524bdb45f5de167e275822865a49594f20ae5b303adeb"
+forecast_seconds = 8143.824311494827
+max_anchor_difference = 0.0
+policy = "full"
+raw_saved = false
+status = "complete"

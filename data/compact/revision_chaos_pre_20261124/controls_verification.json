@@ -1,0 +1,9 @@
+{
+  "source_sha256": {
+    "paper/support/boundary_history_controls_20261123/duffing/b1_r1/conditional_forks.csv": "a17831c98132daebd3cfb024037b97fcb124095ffbe2203e03a98964033d90dc",
+    "paper/support/boundary_history_controls_20261123/ks200/b1_r1/conditional_forks.csv": "155a7f07f8c0f92ee913cda030e4a05ac884151ea71a530f6aa8de2cd16a74ec"
+  },
+  "events_per_system": 199,
+  "independent_replication": false,
+  "statistics": "paired event differences with descriptive quantiles; no run-level CI"
+}

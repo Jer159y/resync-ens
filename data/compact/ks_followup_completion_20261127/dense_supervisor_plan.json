@@ -1,0 +1,20 @@
+{
+  "source_sha256": {
+    "configs/resync_history_dense_20261124.toml": "97c908694c440ebc89c1284971691c4bbdc102ade5ee33a63f9f2444b8f382ea",
+    "configs/resync_revision_20261124.toml": "47b7930e77023b2b30968e50ae33d1ab479a6b9ddd82902bacc5eab717ea5a48",
+    "tools/run_resync_history_dense_20261124.jl": "19d95913da90d50b49c6cb937b06e93da8b28c93c741458dd85fab5a92db7f35",
+    "tools/run_resync_revision_20261124.jl": "f81b9dff2afa4ac8dbdab685a72046e68c043ca1c4988d2857c1f22ddb619837",
+    "tools/run_boundary_history_controls_20261123.jl": "4171d29edf63b48e848a391fea699a49dd1391199a3ad7056e8ab4c49db40f1a",
+    "tools/run_resync_v4_study.jl": "b82bfd7f25195d5760bf5b98cecedd2e9869f6313168e2f0e2a263269339e69b",
+    "tools/run_ks200_v4_study_20261123.jl": "05f447d1affa4fad485a55ca519814fb94c28e0eeb30c69318d31f423a6e7f39",
+    "tools/resync_v4_metrics.jl": "61a887ba6e2e9a89343fb87a60b3d41395c28250ac6f365b77734ff87a09170f",
+    "tools/resync_v4_evaluator.jl": "69a9ad20f01c1a6878249ba24fdba5af89b0325e49f725e2d6286d70cde0f2d3",
+    "src/engine/resync_engine.jl": "a4119263431f288fe2b12f6c195d7adec274ad86580216041c3d118d3c145648",
+    "src/core/training.jl": "bd59434b66c28f35852bd5ddd64244351b19240502dd743556f206a54ea7e0f2",
+    "tools/launch_resync_history_dense_20261124.py": "9185d0425dbdc24312325e8acd7ef38b08b818bad97624d47383d99a35e39a65"
+  },
+  "bo": false,
+  "raw_forecasts_saved": false,
+  "threads": 2,
+  "ks_waits_for_original_queue": true
+}

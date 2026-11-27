@@ -1,0 +1,25 @@
+{
+  "scope": "archived exploratory evidence; no v4 selection/test result; no new simulations",
+  "sources": {
+    "paper/support/blind_repair_probe_20261121/snapshot/duffing/micro_curves.csv": "c00781ea8b57246467762e34416660000cd924d16224eabd809eec43f597b325",
+    "paper/support/population_repair_second_start_20261121/snapshot/duffing/micro_curves.csv": "9822a813f465245e013c98b97f01c3d79d6369e8ed188fef4ea785ad71bc0ca6",
+    "paper/support/posthoc_ensemble_diag_20261122/table4_pass_fail_summary.csv": "05a61de70a42657fc2644b3847a88d6b296bba566a7760362db40c285251672d",
+    "paper/support/quality_scheme_bo_20261119/snapshot/duffing/reference_summary.csv": "635afa73ef3d4b36160251dca313b0cd2f7b8e41394044ddf694fdc93d261491"
+  },
+  "source_code_sha256": "158d0add689d1ae9a3cc013f38a1be2933edb31a6a7d7fb23a342befeb95faec",
+  "posthoc_counts": {
+    "lower_loss_ci": 8,
+    "higher_loss_ci": 1,
+    "includes_zero": 15
+  },
+  "warnings": [
+    "Own W1 is a population distribution metric before copy, not selected-member truth accuracy.",
+    "Duffing examples compare complete policies including different donor assignment/selection; they do not isolate replay causality.",
+    "Pilot A and B differ in cohort, origin and repair policy; they are illustrative, not independent repetitions of one intervention.",
+    "Spread loss uses archived per-interval spread/reference, not v4 base-window loss.",
+    "Historical paired dCRPS compares updated and frozen pre-update ensemble continuations, not full-run no correction.",
+    "Confidence intervals are archived segment-bootstrap intervals, not seed-bank or physical-replicate confidence intervals.",
+    "Two validation starts within a system are not independent physical replicates.",
+    "Failure detection accuracy, pure member restoration and mediation through diversity are not established by these summaries."
+  ]
+}

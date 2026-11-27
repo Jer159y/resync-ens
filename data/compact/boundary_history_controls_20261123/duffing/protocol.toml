@@ -1,0 +1,28 @@
+base_intervals = 200
+bo_rerun = false
+case = "duffing"
+conditional = "all update boundaries except last; common parent history/recipients/donors; next own segment"
+failure = "any nonfinite own output invalidates mechanism branch; no masking by bookkeeping copy"
+history_without_boundary = "mismatched-continuation diagnostic, not the preferred replay-only implementation"
+lead_scores = "exploratory postselection; own and bookkeeping empirical CRPS vs fixed calibration CDF at original scoring times; no retuning"
+members = 300
+protocol_version = "boundary_history_v2_with_lead_scores"
+record_handling = "identical donor bookkeeping replacement in all branches; excluded as a factorial factor"
+repeated = "four policies from same cohort; endogenous recipient/donor schedules; own-output primary outcome"
+selected_k = 30
+selected_m = 1
+temporal_acf = "exploratory, within-segment lags1/base10/base2; exclude constants explicitly; no stitching"
+test_data_reused_for_postselection_controls = true
+training = false
+
+[source_sha256]
+"/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/tools/run_boundary_history_controls_20261123.jl" = "4171d29edf63b48e848a391fea699a49dd1391199a3ad7056e8ab4c49db40f1a"
+"configs/resync_v4_bo_test_20261122.toml" = "70fa664a805731cd12dd7b243da7a94899bab9f3b1262150354c881831718ee5"
+"configs/resync_v4_protocol_20261122.toml" = "69f142e570309306458b028f9b9bb23e29033e317fb60f2e7efe54abe497600a"
+"outputs/research/resync_v4_20261122/bo_test_v1/duffing/cohorts/test.toml" = "7b260c8fdeaeb8e69bffc8b6b7e84ac2d4acca3691a3b042369fefb74d06a709"
+"outputs/research/resync_v4_20261122/bo_test_v1/duffing/selection.toml" = "b962cab696040e54c91cf49ad7a116fe811a1b873c77f6c17e3821e718d31711"
+"outputs/research/resync_v4_20261122/bo_test_v1/duffing/test_complete.toml" = "73d78381e8407ef15b23b7223a03e9de4c80f578d7252ae69e30e86d10dc42b1"
+"src/engine/resync_engine.jl" = "a4119263431f288fe2b12f6c195d7adec274ad86580216041c3d118d3c145648"
+"tools/resync_v4_evaluator.jl" = "69a9ad20f01c1a6878249ba24fdba5af89b0325e49f725e2d6286d70cde0f2d3"
+"tools/resync_v4_metrics.jl" = "61a887ba6e2e9a89343fb87a60b3d41395c28250ac6f365b77734ff87a09170f"
+"tools/resync_v4_operational.jl" = "3d6fb3a6c6468a31baf5bb42f26577025b77000923f2e5e1b9634abe560e4188"

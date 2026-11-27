@@ -1,0 +1,65 @@
+{
+  "main_cases": [
+    "duffing",
+    "cdv",
+    "ks200",
+    "rp20",
+    "thomas16"
+  ],
+  "build": {
+    "main": {
+      "pages": 22,
+      "sha256": "eb1814504032e9209e513d8d2d413736c3f1c9ee4256aab2a0ee452bd3782cb8",
+      "warnings": []
+    },
+    "supplement": {
+      "pages": 20,
+      "sha256": "9f2b96b9d6f230e59b2feed509f85a131f9ebc96582376d246d58cb49ded2db1",
+      "warnings": []
+    }
+  },
+  "primary_comparison": "Resync versus no correction; validation chooses parameters, held constant on test",
+  "bo_rerun": false,
+  "raw_forecasts_fetched": false,
+  "source_sha256": {
+    "paper/support/resync_v4_completed_20261123/snapshot/primary/duffing/test_comparison.csv": "41da067976e0955672205f0dffc7159ffbd52f4ba16435217d38778d75e1943b",
+    "paper/support/resync_v4_completed_20261123/snapshot/primary/duffing/test/k0_m1/effective_base_windows.csv": "ed2e93bf04c223872f73b9df62190d3ba60e81f686e765ed041ddf3b7ee290c2",
+    "paper/support/resync_v4_completed_20261123/snapshot/primary/duffing/test/k0_m1/effective_distribution_windows.csv": "646f67788f91ce51071527b66fc8d351d2ceeff4b8d449a3806c9513e1507360",
+    "paper/support/resync_v4_completed_20261123/snapshot/primary/duffing/test/k30_m1/effective_base_windows.csv": "a683b2ec0515421469bf038841c5984ed41175be4d3c05d7f2b292863f3da697",
+    "paper/support/resync_v4_completed_20261123/snapshot/primary/duffing/test/k30_m1/effective_distribution_windows.csv": "c0e87200f838d95754f2a39e5704ce914427fedee42f7ce6cc6a5ff4d6ffb692",
+    "paper/support/resync_v4_completed_20261123/snapshot/primary/cdv/test_comparison.csv": "d7fc05f3d9dca7a2b0a99160491ea07e3694a04fd4da5a1857d041afac341a4d",
+    "paper/support/resync_v4_completed_20261123/snapshot/primary/cdv/test/k0_m1/effective_base_windows.csv": "a835a94233c2d776b4ef74921ff5c60106a12d1cd952ad58c913ca7515f9e6a7",
+    "paper/support/resync_v4_completed_20261123/snapshot/primary/cdv/test/k0_m1/effective_distribution_windows.csv": "c5de3d64b51283a112c45b21c97b03501743dd69da124fd98568d916a5febbc3",
+    "paper/support/resync_v4_completed_20261123/snapshot/primary/cdv/test/k30_m1/effective_base_windows.csv": "b9d9b52e9fc46f7942cc1888dfc2852ba79bce2b2d698f78025c464fe2b58ee4",
+    "paper/support/resync_v4_completed_20261123/snapshot/primary/cdv/test/k30_m1/effective_distribution_windows.csv": "025fcf45afbfeb67d851aaab253a66d6948f2205231fffeb2a9578a8a4304402",
+    "paper/support/highdim_confirmations_20261123/snapshot/ks200/ks/test_comparison.csv": "46506051803787c0ddea4ffcf282ea0fd8853f34eff8a25550463a57322ab3ce",
+    "paper/support/highdim_confirmations_20261123/snapshot/ks200/ks/test/k0_m1/effective_base_windows.csv": "46ce987a571669ca83f3f41b22930537a8d07d24d5fcfea0d37d6304c6bf8efc",
+    "paper/support/highdim_confirmations_20261123/snapshot/ks200/ks/test/k0_m1/effective_distribution_windows.csv": "1b5b2c1d13cadae5a833cbb71b3b5f95f3e095d7cfe349e8ddf0b7dea2af8a97",
+    "paper/support/highdim_confirmations_20261123/snapshot/ks200/ks/test/k60_m1/effective_base_windows.csv": "4d49a53cb90c073868b58d18a6829cd26cfd42fe50c1a9384f2b8ecbe3047fe4",
+    "paper/support/highdim_confirmations_20261123/snapshot/ks200/ks/test/k60_m1/effective_distribution_windows.csv": "bcdf67ca9c55fdb95e553345bc078e99e8713614a800456dda3276471c307a36",
+    "paper/support/highdim_confirmations_20261123/snapshot/rp20/rp20/test_comparison.csv": "7c2de0f5735ba39aa8c39213b546e19136ff8bdb30daff5cee136e84e087902f",
+    "paper/support/highdim_confirmations_20261123/snapshot/rp20/rp20/test/k0_m1/effective_base_windows.csv": "f1063c8b79f96e8fab90d04fcb6c806e42c9c03172c8a9ac4cba8e265cca7e6d",
+    "paper/support/highdim_confirmations_20261123/snapshot/rp20/rp20/test/k0_m1/effective_distribution_windows.csv": "c31eec109406d826b4ac722f475fa05d2f46c70ad313a567bed75e5ec0f8f4ca",
+    "paper/support/highdim_confirmations_20261123/snapshot/rp20/rp20/test/k90_m1/effective_base_windows.csv": "5073023a4d9d849a1b5e89507a61e9df63ce5cfd62c4240697c74d4945282f20",
+    "paper/support/highdim_confirmations_20261123/snapshot/rp20/rp20/test/k90_m1/effective_distribution_windows.csv": "8941e7210f260d626eb22bacad55d84fe4b9cf9ee21d186d5e804cf869787d9d",
+    "paper/support/highdim_confirmations_20261123/snapshot/thomas16/thomas16/test_comparison.csv": "bce57c6fe8b7847cb63a95cc27f8ef3473e46fe14750f26dfff8395ad40eb9c9",
+    "paper/support/highdim_confirmations_20261123/snapshot/thomas16/thomas16/test/k0_m1/effective_base_windows.csv": "b74e91cce52ecf8f0784e6ca352b065df4c05a861d4347ccb546603b33971f62",
+    "paper/support/highdim_confirmations_20261123/snapshot/thomas16/thomas16/test/k0_m1/effective_distribution_windows.csv": "f565cee65374d3d63e12a6f87cf07f6d75ee7464a7ae191c4e4a78bcb38c89fa",
+    "paper/support/highdim_confirmations_20261123/snapshot/thomas16/thomas16/test/k90_m2/effective_base_windows.csv": "c36bcd7068cc9741dffcc5799046ec9a857abc588e948a186a106c57262645db",
+    "paper/support/highdim_confirmations_20261123/snapshot/thomas16/thomas16/test/k90_m2/effective_distribution_windows.csv": "4557b555b7be65529ee34bc7e288f0b90c893a0b400a1ba595fc82fb342308f9",
+    "paper/support/population_views_20261123/snapshot/thomas16/no_correction_projection.csv": "7c8ac864f747f94b77ce7e87f15808d0fc8bcc8fd51da9698fbcef981bfbefd4",
+    "paper/support/population_views_20261123/snapshot/thomas16/selected_projection.csv": "36c8b4bd87318b7641bef1c771d33ff8876e8195db0aa13f01ed3d34a403c287",
+    "paper/support/population_views_20261123/snapshot/thomas16/reference_cdf.csv": "9718e345a25c4edd782519e197e9095484a5a67952433df3b5b20eb92d88bc44",
+    "paper/support/population_views_20261123/snapshot/thomas16/no_correction_cdf.csv": "feb22bf364191fb7a6fdbbb0750c275d46e79922be43c2e8b022576bb87336a3",
+    "paper/support/population_views_20261123/snapshot/thomas16/selected_cdf.csv": "3b95e2c989c4abb99b831ddacb403a1f58dc19eb8acb62dbc00d9231084709da"
+  },
+  "thomas_prefix_metric_error": 0.0,
+  "figure2_layout": "five systems x reference/ensemble/CDF",
+  "figure3_layout": "five system rows x three metric columns",
+  "figure3_panel_dimensions": [
+    340,
+    110
+  ],
+  "metric_axes": "linear_zero_origin",
+  "supplement_log_alternative_included": false
+}

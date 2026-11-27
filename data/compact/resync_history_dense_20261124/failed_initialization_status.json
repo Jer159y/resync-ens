@@ -1,0 +1,8 @@
+{
+  "status": "needs_attention",
+  "reason": "smoke/duffing stopped; inspect its log",
+  "updated_utc": "2026-11-24T12:39:37.384379+00:00",
+  "supervisor_pid": 58474,
+  "completed_history_policies": 0,
+  "bo_rerun": false
+}

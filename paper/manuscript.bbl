@@ -1,0 +1,169 @@
+\begin{thebibliography}{28}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{https://doi.org/\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{https://doi.org/\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Cawley and Talbot(2010)}]{cawley2010overfitting}
+Cawley, G.~C. and Talbot, N. L.~C.: On Over-fitting in Model Selection and
+  Subsequent Selection Bias in Performance Evaluation, Journal of Machine
+  Learning Research, 11, 2079--2107, 2010.
+
+\bibitem[{Demaeyer et~al.(2020)Demaeyer, De~Cruz, and
+  Vannitsem}]{demaeyer2020qgs}
+Demaeyer, J., De~Cruz, L., and Vannitsem, S.: {qgs}: A flexible {Python}
+  framework of reduced-order multiscale climate models, Journal of Open Source
+  Software, 5, 2597, \doi{10.21105/joss.02597}, 2020.
+
+\bibitem[{Du and Smith(2017)}]{du2017crosspollination}
+Du, H. and Smith, L.~A.: Multi-model cross-pollination in time, Physica D:
+  Nonlinear Phenomena, 353--354, 31--38, \doi{10.1016/j.physd.2017.06.001},
+  2017.
+
+\bibitem[{Ferro(2014)}]{ferro2014fair}
+Ferro, C. A.~T.: {Fair scores for ensemble forecasts}, Quarterly Journal of the
+  Royal Meteorological Society, 140, 1917--1923, \doi{10.1002/qj.2270}, 2014.
+
+\bibitem[{Gneiting and Raftery(2007)}]{gneiting2007proper}
+Gneiting, T. and Raftery, A.~E.: {Strictly Proper Scoring Rules, Prediction,
+  and Estimation}, Journal of the American Statistical Association, 102,
+  359--378, \doi{10.1198/016214506000001437}, 2007.
+
+\bibitem[{Gneiting et~al.(2007)Gneiting, Balabdaoui, and
+  Raftery}]{gneiting2007calibration}
+Gneiting, T., Balabdaoui, F., and Raftery, A.~E.: {Probabilistic forecasts,
+  calibration and sharpness}, Journal of the Royal Statistical Society: Series
+  B (Statistical Methodology), 69, 243--268,
+  \doi{10.1111/j.1467-9868.2007.00587.x}, 2007.
+
+\bibitem[{Haluszczynski and Räth(2019)}]{haluszczynski2019good}
+Haluszczynski, A. and Räth, C.: {Good and bad predictions: Assessing and
+  improving the replication of chaotic attractors by means of reservoir
+  computing}, Chaos, 29, 103\,143, \doi{10.1063/1.5118725}, 2019.
+
+\bibitem[{Hart(2024)}]{hart2023attractor}
+Hart, J.~D.: {Attractor reconstruction with reservoir computers: The effect of
+  the reservoir's conditional Lyapunov exponents on faithful attractor
+  reconstruction}, Chaos, 34, 043\,123, \doi{10.1063/5.0196257}, 2024.
+
+\bibitem[{Hess et~al.(2023)Hess, Monfared, Brenner, and
+  Durstewitz}]{hess2023generalized}
+Hess, F., Monfared, Z., Brenner, M., and Durstewitz, D.: {Generalized Teacher
+  Forcing for Learning Chaotic Dynamics}, in: Proceedings of the 40th
+  International Conference on Machine Learning, vol. 202 of \emph{Proceedings
+  of Machine Learning Research}, pp. 13\,017--13\,049, PMLR,
+  \urlprefix\url{https://proceedings.mlr.press/v202/hess23a.html}, 2023.
+
+\bibitem[{Jaeger(2001)}]{jaeger2001echo}
+Jaeger, H.: The ``echo state'' approach to analysing and training recurrent
+  neural networks, GMD Report 148, GMD -- Forschungszentrum
+  Informationstechnik,
+  \urlprefix\url{https://publica-rest.fraunhofer.de/server/api/core/bitstreams/d789440a-da1a-4749-b225-49fd4035073a/content},
+  2001.
+
+\bibitem[{Jaeger and Haas(2004)}]{jaeger2004harnessing}
+Jaeger, H. and Haas, H.: {Harnessing nonlinearity: Predicting chaotic systems
+  and saving energy in wireless communication}, Science, 304, 78--80,
+  \doi{10.1126/science.1091277}, 2004.
+
+\bibitem[{Koppe et~al.(2019)Koppe, Toutounji, Kirsch, Lis, and
+  Durstewitz}]{koppe2019identifying}
+Koppe, G., Toutounji, H., Kirsch, P., Lis, S., and Durstewitz, D.: Identifying
+  nonlinear dynamical systems via generative recurrent neural networks with
+  applications to {fMRI}, PLoS Computational Biology, 15, e1007\,263,
+  \doi{10.1371/journal.pcbi.1007263}, 2019.
+
+\bibitem[{Kuncheva and Whitaker(2003)}]{kuncheva2003measures}
+Kuncheva, L.~I. and Whitaker, C.~J.: Measures of diversity in classifier
+  ensembles and their relationship with the ensemble accuracy, Machine
+  Learning, 51, 181--207, \doi{10.1023/A:1022859003006}, 2003.
+
+\bibitem[{Leutbecher and Palmer(2008)}]{leutbecher2008ensemble}
+Leutbecher, M. and Palmer, T.~N.: Ensemble forecasting, Journal of
+  Computational Physics, 227, 3515--3539, \doi{10.1016/j.jcp.2007.02.014},
+  2008.
+
+\bibitem[{Lu et~al.(2018)Lu, Hunt, and Ott}]{lu2018attractor}
+Lu, Z., Hunt, B.~R., and Ott, E.: {Attractor reconstruction by machine
+  learning}, Chaos, 28, 061\,104, \doi{10.1063/1.5039508}, 2018.
+
+\bibitem[{McDermott and Wikle(2019)}]{mcdermott2019deep}
+McDermott, P.~L. and Wikle, C.~K.: Deep echo state networks with uncertainty
+  quantification for spatio-temporal forecasting, Environmetrics, 30, e2553,
+  \doi{10.1002/env.2553}, 2019.
+
+\bibitem[{Nadiga(2021)}]{nadiga2021reservoir}
+Nadiga, B.~T.: Reservoir computing as a tool for climate predictability
+  studies, Journal of Advances in Modeling Earth Systems, 13, e2020MS002\,290,
+  \doi{10.1029/2020MS002290}, 2021.
+
+\bibitem[{Pathak et~al.(2017)Pathak, Lu, Hunt, Girvan, and
+  Ott}]{pathak2017using}
+Pathak, J., Lu, Z., Hunt, B.~R., Girvan, M., and Ott, E.: {Using machine
+  learning to replicate chaotic attractors and calculate Lyapunov exponents
+  from data}, Chaos, 27, 121\,102, \doi{10.1063/1.5010300}, 2017.
+
+\bibitem[{Pathak et~al.(2018)Pathak, Hunt, Girvan, Lu, and
+  Ott}]{pathak2018model}
+Pathak, J., Hunt, B., Girvan, M., Lu, Z., and Ott, E.: {Model-Free Prediction
+  of Large Spatiotemporally Chaotic Systems from Data: A Reservoir Computing
+  Approach}, Physical Review Letters, 120, 024\,102,
+  \doi{10.1103/PhysRevLett.120.024102}, 2018.
+
+\bibitem[{Pecora and Carroll(1990)}]{pecora1990synchronization}
+Pecora, L.~M. and Carroll, T.~L.: {Synchronization in chaotic systems},
+  Physical Review Letters, 64, 821--824, \doi{10.1103/PhysRevLett.64.821},
+  1990.
+
+\bibitem[{Pennell and Reichler(2011)}]{pennell2010number}
+Pennell, C. and Reichler, T.: {On the Effective Number of Climate Models},
+  Journal of Climate, 24, 2358--2367, \doi{10.1175/2010JCLI3814.1}, 2011.
+
+\bibitem[{Penny et~al.(2022)Penny, Smith, Chen, Platt, Lin, Goodliff, and
+  Abarbanel}]{penny2022integrating}
+Penny, S.~G., Smith, T.~A., Chen, T.-C., Platt, J.~A., Lin, H.-Y., Goodliff,
+  M., and Abarbanel, H. D.~I.: Integrating recurrent neural networks with data
+  assimilation for scalable data-driven state estimation, Journal of Advances
+  in Modeling Earth Systems, 14, e2021MS002\,843, \doi{10.1029/2021MS002843},
+  2022.
+
+\bibitem[{Platt et~al.(2021)Platt, Wong, Clark, Penny, and
+  Abarbanel}]{platt2021robust}
+Platt, J.~A., Wong, A.~S., Clark, R., Penny, S.~G., and Abarbanel, H. D.~I.:
+  Robust forecasting using predictive generalized synchronization in reservoir
+  computing, Chaos, 31, 123\,118, \doi{10.1063/5.0066013}, 2021.
+
+\bibitem[{Schevenhoven et~al.(2019)Schevenhoven, Selten, Carrassi, and
+  Keenlyside}]{schevenhoven2019supermodels}
+Schevenhoven, F., Selten, F., Carrassi, A., and Keenlyside, N.: Improving
+  weather and climate predictions by training of supermodels, Earth System
+  Dynamics, 10, 789--807, \doi{10.5194/esd-10-789-2019}, 2019.
+
+\bibitem[{Tomizawa and Sawada(2021)}]{tomizawa2021combining}
+Tomizawa, F. and Sawada, Y.: {Combining Ensemble Kalman Filter and Reservoir
+  Computing to predict spatio-temporal chaotic systems from imperfect
+  observations and models}, Geoscientific Model Development, 14, 5623--5635,
+  \doi{10.5194/GMD-14-5623-2021}, 2021.
+
+\bibitem[{Vissio et~al.(2020)Vissio, Lembo, Lucarini, and
+  Ghil}]{vissio2020evaluating}
+Vissio, G., Lembo, V., Lucarini, V., and Ghil, M.: {Evaluating the performance
+  of climate models based on Wasserstein distance}, Geophysical Research
+  Letters, 47, e2020GL089\,385, \doi{10.1029/2020GL089385}, 2020.
+
+\bibitem[{Vlachas et~al.(2018)Vlachas, Byeon, Wan, Sapsis, and
+  Koumoutsakos}]{vlachas2018lstm}
+Vlachas, P.~R., Byeon, W., Wan, Z.~Y., Sapsis, T.~P., and Koumoutsakos, P.:
+  Data-driven forecasting of high-dimensional chaotic systems with long
+  short-term memory networks, Proceedings of the Royal Society A, 474,
+  20170\,844, \doi{10.1098/rspa.2017.0844}, 2018.
+
+\bibitem[{Yildiz et~al.(2012)Yildiz, Jaeger, and Kiebel}]{yildiz2012revisiting}
+Yildiz, I.~B., Jaeger, H., and Kiebel, S.~J.: Re-visiting the echo state
+  property, Neural Networks, 35, 1--9, \doi{10.1016/j.neunet.2012.07.005},
+  2012.
+
+\end{thebibliography}

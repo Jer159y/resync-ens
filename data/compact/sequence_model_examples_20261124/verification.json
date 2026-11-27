@@ -1,0 +1,33 @@
+{
+  "status": "complete",
+  "displayed_conditions": [
+    "Initial autonomous rollout",
+    "No intervention",
+    "Resync"
+  ],
+  "shared_limits": [
+    -2,
+    2,
+    -1.5,
+    1.5
+  ],
+  "identical_panel_size": [
+    300,
+    225
+  ],
+  "panels": 6,
+  "manuscript_figure": 4,
+  "illustration_events_unchanged": true,
+  "ensemble_context_unchanged": true,
+  "new_table_added": false,
+  "test_accessed": false,
+  "new_experiment": false,
+  "renderer_hash_verified": true,
+  "artifact_sha256": {
+    "state_reconstruction_examples.pdf": "f38557905816f3abfc9488d89f9c2c956b396e0ca6e1f2ac366efde1ccb0fc4f",
+    "state_reconstruction_examples.png": "7c9f8ba807a13fdcf9e60d7514e20b8d602993b5c30b6f5b6fa6c92e630ffb90",
+    "ensemble_context.pdf": "1a542a0dd00f16c0c77f8e70b993452895959145ae278aa92008c4915ea62d6a",
+    "sequence_model_examples.pdf": "972af5e01526c39867c260a0d8149699a215424e150dd1afa39d2f13faf4c3ff",
+    "ensemble_context.png": "ecd127b7e503b5f365bc8ee87448a050ade9213cc16f6681800f61dd77a54e5b"
+  }
+}

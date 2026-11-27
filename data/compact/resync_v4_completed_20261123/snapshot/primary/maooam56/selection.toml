@@ -1,0 +1,13 @@
+baseline_score = 1.0
+history_csv_sha256 = "852a0302646de8ff75d791d8a7f814f411634a716893894d5d023732d5a99cc0"
+k = 3
+multiplier = 2
+n_corrected_evaluated = 12
+scales = [0.3100472178296662, 0.059582703816511415]
+score = 0.9926907023450283
+spread_loss = 0.05665111958073009
+status = "selected"
+system = "maooam56"
+test_accessed = false
+test_eligible = true
+w1 = 0.3077809904274533

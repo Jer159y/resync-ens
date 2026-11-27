@@ -1,0 +1,31 @@
+{
+  "status": "complete",
+  "conditions": 4,
+  "base_intervals_each": 200,
+  "conditional_events": 199,
+  "conditional_rows": 796,
+  "all_forks_valid": true,
+  "anchor_error": 0.0,
+  "bo_rerun": false,
+  "raw_saved": false,
+  "scope": "One-segment matched forks; full policies have endogenous schedules; not independent events",
+  "source_sha256": {
+    "conditional_fork_summary.csv": "893474cf855e507425b377ba7c94a61e363b7767babb9b276836fcae178fd3d6",
+    "complete.toml": "e0bdc738d686dc8e86910037fcc0040ec9b94501d8551034029c078f46386b5f",
+    "protocol.toml": "b663bb60f822e55a44355706ddd13b8bcb9013d1f6f9fef3adb64390dbfd7ca0",
+    "progress.toml": "0683449a6fb14d8dd1aa5d2e09a5f934c2cf9d226ef11d0a6018c9c4b5caab44",
+    "b0_r1/complete.toml": "64c5874a1aec8c602aeede7ed83cc2df15b4abb3a53cde62484bef4d40251d1b",
+    "b0_r1/own_summary.csv": "7fc3517770e5b62be567c03d201c88bb0e70d9c0cec8c09b1fb4dcfa05cbd9a0",
+    "b0_r1/bookkeeping_summary.csv": "0b3304cd03b28528cb62a671e8381054250b9f2d7b69f932ef074b08a2a36b9a",
+    "b0_r0/complete.toml": "ee19e21f68de5f3c3d531a254d827b4b7c155ef568dbf60630360858befb242d",
+    "b0_r0/own_summary.csv": "77e2fa03c53bd8531b56aa46500402f4c6ae2526ad6f6bc0c4c06a7c35853352",
+    "b0_r0/bookkeeping_summary.csv": "7ae5a762af704680e11a0639fabb9d3d81b4267337fd341cdd24ebde9d0c09b5",
+    "b1_r0/complete.toml": "b8ff3fb16e504697123e3c1ef6a741ebc6c6de5ead02009cfe787be715acc523",
+    "b1_r0/own_summary.csv": "6ef41b70d536c65a3710cbe5a1ccd1987c725bac3a6ada9cf6fd0d024b1dbaa7",
+    "b1_r0/bookkeeping_summary.csv": "52c095533a735c2cddbd2caf99d4a69e755158a0d4a3cd62501f61c51b832cee",
+    "b1_r1/conditional_forks.csv": "a17831c98132daebd3cfb024037b97fcb124095ffbe2203e03a98964033d90dc",
+    "b1_r1/complete.toml": "7795697f9f77fa5545bacaf47673219a7cbb4e8337123cb5ae28253b88e93a02",
+    "b1_r1/own_summary.csv": "70f58fc96f1adfd2dd5f4c0e9d100d1a3e3071bde8002f4758221aafe97fcc97",
+    "b1_r1/bookkeeping_summary.csv": "4e953e2cb5888ed35890250130644ca491f21ce553b034e3834ece10c634d90a"
+  }
+}

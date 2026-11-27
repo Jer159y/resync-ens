@@ -1,0 +1,4 @@
+case = "duffing"
+policy = "full"
+segment = 200
+segments = 200

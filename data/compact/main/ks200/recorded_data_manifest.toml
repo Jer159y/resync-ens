@@ -1,0 +1,62 @@
+base_tau = 474
+calibration_physical_seed = 2026112211
+calibration_reused_from = "/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/outputs/research/resync_v4_20261122/ks"
+calibration_source_manifest_sha256 = "437d0c14661f081afc99ab7b263259456adb1dfcd50da1db5f8d63eec11a21bd"
+data_preparation_source_sha256 = "2a0f5566f1ee7b97c11f7a5058be3a7f19e4110eec7b90b8fe6ace808902a6cc"
+model_fit_role = "Preparation only, original training prefix; frozen before BO"
+no_model_fit = false
+physical_generator = "scheme_fresh_with_legacy_frozen_physics_config"
+protocol_config_sha256 = "0c7afce8ebfca12dd1073940a36ec08d645d13bd51d081c875787a4fef65fa2d"
+protocol_version = "ks200_v4_20261123"
+reserved_test_physical_seed = 2026112223
+scope = "Fresh validation after capacity decision, shared frozen calibration, original training prefix, reserved unused test generated only after selection freeze"
+status = "frozen_data_plan"
+system = "ks"
+test_generated = false
+training_prefix_length = 21000
+training_prefix_source = "outputs/research/quality_scheme_bo_20261119/ks/validation_data.jld2"
+training_source_role = "only_preserved_original_training_prefix_is_reused"
+validation_fresh_length = 49400
+validation_length_per_origin = 18960
+validation_origin_offsets = [1000, 30440]
+validation_physical_seed = 2026112322
+
+[calibration_indices.check_targets]
+first = 1725361
+last = 1914960
+length = 189600
+
+[calibration_indices.population_window_pool]
+first = 199081
+last = 1715880
+length = 1516800
+
+[calibration_indices.w1_target_bank]
+first = 1
+last = 189600
+length = 189600
+
+[[validation_origins]]
+origin = 1
+
+    [validation_origins.forecast_fresh]
+    first = 1001
+    last = 19960
+    length = 18960
+
+    [validation_origins.synchronization_fresh]
+    first = 1
+    last = 1000
+    length = 1000
+[[validation_origins]]
+origin = 2
+
+    [validation_origins.forecast_fresh]
+    first = 30441
+    last = 49400
+    length = 18960
+
+    [validation_origins.synchronization_fresh]
+    first = 29441
+    last = 30440
+    length = 1000

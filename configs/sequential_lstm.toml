@@ -1,0 +1,14 @@
+# Original selected validation illustration profile; not a new test or architecture ranking.
+kind = "lstm"
+bank = 1
+members = 300
+units = 32
+updates = 10000
+training_samples = 8000
+segments = 40
+fraction = 0.1
+origins = [1001, 7001, 13001]
+ridge = 0.0001
+spectral_radius = 0.95
+profile = "validated_baseline_regime"
+stage = "validation"

@@ -1,0 +1,13 @@
+baseline_score = 1.0
+history_csv_sha256 = "ec86a558110d726bbfadd04ff70178723a874c5f08cffa6dc319fc5e9cd265a1"
+k = 90
+multiplier = 2
+n_corrected_evaluated = 12
+scales = [1.8245346578258541, 1.6771831998873967]
+score = 0.022180834047545495
+spread_loss = 0.02349093040519759
+status = "selected"
+system = "thomas16"
+test_accessed = false
+test_eligible = true
+w1 = 0.04046970045923048

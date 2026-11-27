@@ -1,0 +1,7 @@
+kind,condition,source_panel,n_plot_samples,xmin,xmax,ymin,ymax,panel_width,panel_height
+lstm,initial_autonomous,1,500,-2.0,2.0,-1.5,1.5,300,225
+lstm,no_intervention,3,500,-2.0,2.0,-1.5,1.5,300,225
+lstm,resync,6,500,-2.0,2.0,-1.5,1.5,300,225
+esn,initial_autonomous,1,500,-2.0,2.0,-1.5,1.5,300,225
+esn,no_intervention,3,500,-2.0,2.0,-1.5,1.5,300,225
+esn,resync,6,500,-2.0,2.0,-1.5,1.5,300,225

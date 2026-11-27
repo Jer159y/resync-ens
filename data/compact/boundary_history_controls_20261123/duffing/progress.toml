@@ -1,0 +1,5 @@
+case = "duffing"
+condition = "b0_r1"
+forks = false
+segment = 200
+segments = 200

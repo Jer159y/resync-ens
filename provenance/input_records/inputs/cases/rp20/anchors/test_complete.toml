@@ -1,0 +1,10 @@
+comparison_sha256 = "7c2de0f5735ba39aa8c39213b546e19136ff8bdb30daff5cee136e84e087902f"
+n_base_intervals = 200
+no_training = true
+paired_first_base_verified = true
+physical_data_sha256 = "089645cd8f954736f53f007ba3db66b9336a1b7e7e21f31328b9c31e23656810"
+physical_seed = 2026112343
+selection_sha256 = "6d84487a2d506c5677ce476247748b0e7f0a513e3abb5fecdc234eed5653690a"
+status = "complete"
+system = "rp20"
+test_accessed = true

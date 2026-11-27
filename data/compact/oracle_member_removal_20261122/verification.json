@@ -1,0 +1,13 @@
+{
+  "analytic_assertions_passed": true,
+  "retained_cases": 3,
+  "result_rows": 7,
+  "pdf_pages": 2,
+  "all_oracle_false_positives": 0,
+  "sha256": {
+    "results.csv": "8af7f5b70873fd4f95d0abbd682735e2451ee28125090a3d3b500437443c9c56",
+    "protocol.json": "1e6c25b5ca676f5bce8b9cfd61f531855cbb2387441a1f42743e2cf301b50abc",
+    "oracle_removal_counterexample.pdf": "2903b7f38667f21afa7a92a0d1859b83f4a33cdcd816d39cb4f45d5ce9a0ee44",
+    "oracle_removal_note.pdf": "8ce27bc830202f0b694641d1bf606adafed0d0d1308f66433287ae2a1eb10b3a"
+  }
+}

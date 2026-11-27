@@ -1,0 +1,6 @@
+{
+  "status": "needs_attention",
+  "reason": "replication/duffing stopped with exit 1; inspect /Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/outputs/research/resync_revision_20261124/replication_duffing.log",
+  "supervisor_pid": 57002,
+  "updated_utc": "2026-11-24T15:54:50.391254+00:00"
+}

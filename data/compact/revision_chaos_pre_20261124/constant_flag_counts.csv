@@ -1,0 +1,11 @@
+system,policy,windows,windows_any_constant,mean_constant_members,max_constant_members,mean_constant_member_fraction,unique_flagged_members,consecutive_member_flags
+duffing,none,200,193,64.935,86,0.21645,not_reconstructible_from_aggregate_counts,requires_identity_records
+duffing,resync,200,0,0,0,0.0,not_reconstructible_from_aggregate_counts,requires_identity_records
+cdv,none,200,197,10.92,13,0.0364,not_reconstructible_from_aggregate_counts,requires_identity_records
+cdv,resync,200,0,0,0,0.0,not_reconstructible_from_aggregate_counts,requires_identity_records
+ks200,none,200,198,38.64,49,0.1288,not_reconstructible_from_aggregate_counts,requires_identity_records
+ks200,resync,200,0,0,0,0.0,not_reconstructible_from_aggregate_counts,requires_identity_records
+rp20,none,200,192,52.435,79,0.17478333333333335,not_reconstructible_from_aggregate_counts,requires_identity_records
+rp20,resync,200,0,0,0,0.0,not_reconstructible_from_aggregate_counts,requires_identity_records
+thomas16,none,200,197,174.17,227,0.5805666666666667,not_reconstructible_from_aggregate_counts,requires_identity_records
+thomas16,resync,200,0,0,0,0.0,not_reconstructible_from_aggregate_counts,requires_identity_records

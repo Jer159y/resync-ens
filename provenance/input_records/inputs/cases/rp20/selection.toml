@@ -1,0 +1,13 @@
+baseline_score = 1.0
+history_csv_sha256 = "1021fca3bab5e2a429cf1c4c063a6c0a84d5966cb5ff6c6dfdfc7612efd5bf2f"
+k = 90
+multiplier = 1
+n_corrected_evaluated = 12
+scales = [0.5098187029051487, 0.5581416657460074]
+score = 0.37380845922293565
+spread_loss = 0.14852425487822812
+status = "selected"
+system = "rp20"
+test_accessed = false
+test_eligible = true
+w1 = 0.19057454381600925

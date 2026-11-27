@@ -1,0 +1,20 @@
+conditions = ["Initial autonomous rollout", "No intervention", "Resync"]
+new_training = false
+panel_size = [300, 225]
+renderer_sha256 = "d42a209236bf8b763489e155bad820b8b0a5de73ef49be287115fb94c98c79a7"
+same_examples_as_previous_illustration = true
+scope = "Selected validation examples, not an architecture ranking or population recovery-rate estimate"
+selected_events = ["b1_o1001_m145_t2000", "b1_o1001_m32_t2000"]
+shared_limits_all_six_panels = [-2.0, 2.0, -1.5, 1.5]
+test_accessed = false
+
+[source_sha256]
+"outputs/research/duffing_qualified_validation_20261124/lstm/bank1/p10/normalization.toml" = "ec9a6fdf0d820789bdd88280530ba6222316f595c8727ffc52a25c425afde595"
+"outputs/research/duffing_qualified_validation_20261124/lstm/bank1/p10/reference_phase.csv" = "12cae2366a4659fafbfe50f294f1c13ebefec74623c9909a875986e50e083790"
+"paper/support/sequence_model_examples_20261124/esn_panel1.csv" = "68a68913a32354834e1f7e71a7eb4f0dd3d7a9380da15dfba1d44e4422c4492c"
+"paper/support/sequence_model_examples_20261124/esn_panel3.csv" = "abd5a950f0185cf43f45553ccf1f756a9a9db890987010e977a17d19d2e1fe64"
+"paper/support/sequence_model_examples_20261124/esn_panel6.csv" = "a8d8ed08fb11a443436e5383c6746ab69b000533726e08280d97de3d2b8f1174"
+"paper/support/sequence_model_examples_20261124/lstm_panel1.csv" = "fc34ee7d295be27b87b4f7dcef06d12a90f4c0f5d18b9186d81c673adffc33c0"
+"paper/support/sequence_model_examples_20261124/lstm_panel3.csv" = "a3873409c215c31d0d3e76abe973aa4c20c917aa2d0cd3158588af5c978cfb33"
+"paper/support/sequence_model_examples_20261124/lstm_panel6.csv" = "7f56b58738eff1d1ca0a844b94c32edda02bdd2c9a6e419f0277caafa531d7d4"
+"paper/support/sequence_model_examples_20261124/selected_examples.csv" = "bb81b099a1eb1a28a12e6933c26a5d5fc9c64945c57b79142eff1cdc1fcad974"

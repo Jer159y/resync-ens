@@ -1,0 +1,30 @@
+base_tau = 217
+calibration_physical_seed = 2026112341
+protocol_config_sha256 = "6eb2e3583e8ae64fda72c124f69088822d627014d6d91c7c98e34de0cef10e1c"
+protocol_version = "rp20_v4_20261123"
+reserved_test_physical_seed = 2026112343
+scope = "Original training prefix reused; independent seeded physical calibration and validation. Test generated only after selection freeze."
+system = "rp20"
+test_generated = false
+training_prefix_length = 21000
+training_prefix_sha256 = "5eaea6820437de82c5e5a56f8a29b2fa911a0b8cad47bdee38a1ebd1339cc5b0"
+training_prefix_source = "/Users/sov/Documents/GitHub/EESN/task_runs/20261117_paper/outputs/research/quality_scheme_bo_20261119/rp20/validation_data.jld2"
+validation_fresh_length = 23700
+validation_length_per_origin = 8680
+validation_origin_offsets = [1000, 15020]
+validation_physical_seed = 2026112342
+
+[calibration_indices.check_targets]
+first = 789881
+last = 876680
+length = 86800
+
+[calibration_indices.population_window_pool]
+first = 91141
+last = 785540
+length = 694400
+
+[calibration_indices.w1_target_bank]
+first = 1
+last = 86800
+length = 86800

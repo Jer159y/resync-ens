@@ -1,0 +1,22 @@
+{
+  "main": {
+    "pages": 22,
+    "sha256": "2183a9524b266df968539099bc10dd33a51a82f2f3a7a57fefa221058f9dc2a5",
+    "warnings": []
+  },
+  "main_chaos": {
+    "pages": 9,
+    "sha256": "998c8a05ed49cccf7425a7203f011c2a5b40f4cf7237f9c0c3f6c877ab783e3d",
+    "warnings": []
+  },
+  "main_pre": {
+    "pages": 22,
+    "sha256": "7ab68ae7c64c630b663b419389bc6dc1ab1b18a06d2e8d2a89e62a728cbc876d",
+    "warnings": []
+  },
+  "supplement": {
+    "pages": 23,
+    "sha256": "a14cafd5732498c1268f07fdc48c8db18bea2bd8cc6651fb57b3ce96e855819a",
+    "warnings": []
+  }
+}

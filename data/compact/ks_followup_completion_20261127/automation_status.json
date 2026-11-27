@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "stage": "finished",
+  "failures": [],
+  "updated_utc": "2026-11-26T09:55:10.329661+00:00",
+  "supervisor_pid": 60322,
+  "duffing_replication": "5_completed_1_refill_failure_preserved",
+  "bo_rerun": false
+}

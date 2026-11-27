@@ -1,0 +1,9 @@
+{
+  "status": "waiting_original_queue",
+  "case": "ks200",
+  "stage": "resource_gate",
+  "updated_utc": "2026-11-24T16:15:43.110673+00:00",
+  "supervisor_pid": 58504,
+  "completed_history_policies": 28,
+  "bo_rerun": false
+}

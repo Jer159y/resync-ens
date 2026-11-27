@@ -1,0 +1,45 @@
+[data]
+noise = 1.0e-6
+normalize = true
+reference_len = 20000
+shift = 1000
+train_len = 20000
+
+[esn]
+bias_scaling = 0.5
+degree = 6.0
+input_scaling = 0.1
+leak = 0.5
+radius = 0.5
+readout = "nlat1"
+res_size = 500
+ridge = 1.0e-6
+seed = 1234
+sparse = true
+washout = 500
+
+[experiment]
+criterion = "feature_distance_from_centroid"
+health_window = 217
+mahal_var_frac = 1.0
+n_ensemble = 300
+n_segments = 20
+p = 0.1
+reserve = 150
+tau = 217
+tau_lyap = 0.0
+
+[playground]
+n_seeds = 3
+rollout_len = 20000
+
+[system]
+N = 20
+data_file = "artifacts/inputs/cases/rp20/test.jld2"
+dt = 0.5
+int_dt = 0.1
+label = "RP20 full-state QG"
+name = "file"
+reduce = "none"
+reduce_k = 0
+spatial = false
